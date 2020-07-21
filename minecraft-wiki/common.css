@@ -1,0 +1,85 @@
+#p-search form
+{
+	border-right: 4px solid #CCC !important;
+}
+
+#p-search form::after
+{
+	border-top: 4px solid #E2E2E2 !important;
+	border-left: 4px solid #CCC !important;
+}
+
+#simpleSearch::after
+{
+	border-top: 3px solid #E2E2E2 !important;
+	border-left: 3px solid #E6E6E6 !important;
+}
+
+#netbar .netbar-right a, #netbar .netbar-right a::after
+{
+	color: white !important;
+	text-shadow: 0px 0px 8px black !important;
+}
+
+.avatar, .mw-echo-notifications-badge
+{
+	box-shadow: 0px 0px 8px black;
+}
+
+/** General fixes **/
+/* Stop pre (often used for code blocks) from breaking out the page */
+pre {
+	overflow-x: auto;
+}
+
+/* Don't allow edit form to be resized horizontally, so it stays 100% width */
+#wpTextbox1 {
+	resize: vertical;
+}
+
+/* Fix spacing at bottom of watchlist options */
+#mw-watchlist-form-namespaceselector p {
+	margin-bottom: 0;
+}
+
+/* Stop patrol link floating */
+div.patrollink {
+	clear: both;
+}
+/** Personal Vector skin improvements **/
+/* Make the "changed since your last visit" on page history have a cyan background and darker cyan outline
+   (basically a cyan version of the "You have new messages" box) */
+.updatedmarker {
+	background: #00FFFF;
+	border: 1px solid #00BEFF;
+	padding: 1px;
+}
+
+/* Make redirect links green */
+body.action-edit .mw-redirect,
+body.action-edit .mw-redirect:link,
+body.action-edit .mw-redirect:visited {
+	color: #008000;
+}
+
+/* Make delete/protect reason field and edit summary field take up the whole screen width */
+#wpTextbox1,
+input#wpSummary,
+#mw-deleteconfirm-table,
+#mw-img-deleteconfirm-table,
+input#wpReason,
+#mw-protect-table3,
+input#mwProtect-reason,
+.mw-special-Block .mw-input,
+.mw-special-Block #mw-input-wpReason-other {
+	width: 100%;
+	-moz-box-sizing: border-box;
+}
+#mw-deleteconfirm-table .mw-label,
+#mw-img-deleteconfirm-table .mw-label,
+#mw-protect-table3 .mw-label {
+	width: 138px;
+}
+.mw-special-Block .mw-label {
+	min-width: 142px;
+}
