@@ -47,16 +47,8 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 	background: #ccc !important;
 }
 
-.navbox-abovebelow, th.navbox-group, .navbox-subgroup .navbox-title {
-	background: #ccc;
-}
-
-.navbox th, .navbox-title {
-	background-color: #ccc;
-}
-
-.navbox-subgroup .navbox-group, .navbox-subgroup .navbox-abovebelow {
-	background: #ccc;
+.navbox th, .navbox-abovebelow, .navbox-group, .navbox-subgroup, .navbox-title, th.navbox-group {
+	background-color: #ccc !important;
 }
 
 .ambox {
