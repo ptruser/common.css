@@ -67,18 +67,9 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 }
 
 div.tright, div.floatright, table.floatright {
-	clear: right;
-	float: right;
-	border: 1px solid #ddd !important;
+	color: #666;
+	border: 1px solid #aaa !important;
 	background-color: #eee !important;
-}
-
-
-th.mbox-text, td.mbox-text {
-	border: none;
-	padding: 0.25em 0.9em;
-	width: 100%;
-	background: #eee;
 }
 
 .mbox-image {
