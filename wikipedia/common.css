@@ -66,11 +66,45 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 	clear: both;
 }
 
+blockquote {
+	padding-left: 10px;
+	margin-left: 0;
+	font-size: 11pt;
+	color: #666 !important;
+	border-left: 4px solid #aaa !important;
+	overflow: auto;
+}
+
 div.tright, div.floatright, table.floatright {
 	color: #666;
 	border: 1px solid #aaa !important;
+	border-left: 4px solid #aaa !important;
 	background-color: #eee !important;
 }
+
+.mw-parser-output .ts-Цитата-container {
+	display: contents !important;
+	background: #FFF !important;
+}
+
+.mw-parser-output .ts-Цитата-quote {
+	color: #666;
+	border: 1px solid #aaa !important;
+	border-left: 4px solid #aaa !important;
+	background-color: #eee !important;
+	padding: 5px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+.mw-parser-output .ts-Цитата-leftQuote {
+	display: none;
+}
+
+.mw-parser-output .ts-Цитата-rightQuote {
+	display: none;
+}
+
 
 .mbox-image {
 	border: none;
@@ -358,16 +392,6 @@ h1 {
 table {
 	border: 1px solid #ddd !important;
 	background: #eee !important;
-}
-
-
-blockquote {
-	padding-left: 10px;
-	margin-left: 0;
-	border-left: 4px #aaa solid;
-	font-size: 11pt;
-	color: #666;
-	overflow: auto;
 }
 
 div.plainlist.plainlinks {
