@@ -1,3 +1,7 @@
+<p align="center">  
+  <img src = "./www/logo.png" />
+</p>
+
 # About
 
 ❤️ Minimal aestheic with highly refined color palettes
