@@ -78,7 +78,6 @@ blockquote {
 div.tright, div.floatright, table.floatright {
 	color: #666;
 	border: 1px solid #aaa !important;
-	border-left: 4px solid #aaa !important;
 	background-color: #eee !important;
 }
 
