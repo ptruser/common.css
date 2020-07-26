@@ -1,5 +1,7 @@
 <p align="center">  
-  <img src = "./www/logo.png" />
+  <img
+   src="./www/logo.png"
+   alt="Logo won't load :-(. It shows shades of gray - primary colors in a color scheme.">
 </p>
 
 # About
