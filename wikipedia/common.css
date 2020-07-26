@@ -5,10 +5,10 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 */
 
 .infobox {
-	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
 	border-spacing: 3px;
-	background-color: #eee;
-	color: black;
+	background-color: #eee !important;
+	color: black !important;
 	margin: 0.5em 0 0.5em 1em;
 	padding: 0.2em;
 	float: right;
@@ -20,7 +20,7 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 .infobox > * > tr > td,
 .infobox > * > tr > th {
 	padding: 2px 5px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #000 !important;
 }
 
 .infobox a,
@@ -57,14 +57,19 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 
 .ambox {
 	margin: 0 10%;
-	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc;
-	background: #eee;
+	background: #eee !important;
 }
 
+table.ambox + table.ambox {
+	margin-top: 5px !important;
+}
+
+
 .catlinks {
-	border: 1px solid #ddd;
-	background-color: #eee;
+	border: 1px solid #ddd !important;
+	background-color: #eee !important;
 	padding: 5px;
 	margin-top: 1em;
 	clear: both;
@@ -125,10 +130,6 @@ table.plainlinks {
 	font-size: 95%;
 }
 
-
-table.ambox + table.ambox {
-	margin-top: 5px;
-}
 
 
 
@@ -223,10 +224,10 @@ table.ambox + table.ambox {
 
 
 .wikitable {
-	background-color: #eee;
-	color: #202122;
+	background-color: #eee !important;
+	color: #202122 !important;
 	margin: 1em 0;
-	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
 	border-collapse: collapse
 }
 
@@ -234,13 +235,13 @@ table.ambox + table.ambox {
 .wikitable > tr > td,
 .wikitable > * > tr > th,
 .wikitable > * > tr > td {
-	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
 	padding: 0.2em 0.4em
 }
 
 .wikitable > tr > th,
 .wikitable > * > tr > th {
-	background-color: #ddd;
+	background-color: #ddd !important;
 	text-align: center
 }
 
@@ -248,14 +249,28 @@ table.ambox + table.ambox {
 	font-weight: bold
 }
 
+#mw-content-text > div > table.wikitable > tbody > tr:nth-child(odd) {
+	color: #000 !important;
+	background-color: #ddd !important;
+}
+
+#mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(odd) > th {
+	background-color: #ddd !important;
+}
+
+#mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(even) > th {
+	background-color: #ddd !important;
+}
+
+
 
 .standard > tr > th, .standard > * > tr > th, .wide > tr > th, .wide > * > tr > th {
-	background-color: #ddd;
+	background-color: #ddd !important;
 }
 
 
 .standard > tr > th, .standard > tr > td, .standard > * > tr > th, .standard > * > tr > td, .wide > tr > th, .wide > tr > td, .wide > * > tr > th, .wide > * > tr > td {
-	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
 	padding: 0.2em 0.4em;
 }
 
