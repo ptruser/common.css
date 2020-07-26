@@ -51,6 +51,10 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 	background-color: #ccc !important;
 }
 
+#mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(20) > td > div.mw-customtoggle-maps1.noprint.mw-customtoggle {
+	background-color: #eee !important;
+}
+
 .ambox {
 	margin: 0 10%;
 	border: 1px solid #ddd;
