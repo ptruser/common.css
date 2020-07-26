@@ -73,6 +73,14 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 	background-color: #ccc !important;
 }
 
+#mw-content-text > div > table.infobox > tbody > tr:nth-child(26) > td {
+	background-color: #eee !important;
+}
+
+#collapsibleTable0 > tbody > tr:nth-child(1) {
+	background-color: #eee !important;
+}
+
 .ambox {
 	margin: 0 10%;
 	border: 1px solid #ddd !important;
@@ -189,6 +197,10 @@ table.plainlinks {
 
 #mw-content-text > div > div:nth-child(4) {
 	border: 1px solid #ddd !important;
+}
+
+#mw-content-text > div > div.main-wrapper {
+	border: 1px solid #FFF !important;
 }
 
 .mw-parser-output .ts-Раздел_форума-wrapper {
