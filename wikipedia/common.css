@@ -2,6 +2,13 @@
 Add to
 https://ru.wikipedia.org/wiki/Участник:<Username>/common.css
 https://en.wikipedia.org/wiki/User:<Username>/common.css
+#fff
+#eee
+#ddd
+#ccc
+#aaa
+#666
+#000
 */
 
 .infobox {
@@ -465,7 +472,7 @@ div#ruwiki-ku-header {
 	margin:0 auto
 }
 .mw-parser-output .ts-Закрыто-header {
-	background-color:#c8ccd1;
+	background-color: #eee !important;
 	padding:.25em 1em;
 	margin:0 -1.1em .5em;
 	font-size:90%
