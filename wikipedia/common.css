@@ -51,8 +51,26 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 	background-color: #ccc !important;
 }
 
+#mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(odd) > td > div.mw-customtoggle-maps1.noprint.mw-customtoggle {
+	background-color: #eee !important;
+}
+
 #mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(even) > td > div.mw-customtoggle-maps1.noprint.mw-customtoggle {
 	background-color: #eee !important;
+}
+
+#mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(odd) > td {
+	border-color: #eee !important;
+	border-bottom: 1px solid #000 !important;
+}
+
+#mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table {
+	border: 1px solid #ccc !important;
+	background-color: #ccc !important;
+}
+
+#mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(3) > table {
+	background-color: #ccc !important;
 }
 
 .ambox {
@@ -263,7 +281,6 @@ table.plainlinks {
 }
 
 
-
 .standard > tr > th, .standard > * > tr > th, .wide > tr > th, .wide > * > tr > th {
 	background-color: #ddd !important;
 }
@@ -410,7 +427,7 @@ h1 {
 }
 
 table {
-	border: 1px solid #ddd !important;
+	/*border: 1px solid #ddd !important;*/
 	background: #eee !important;
 }
 
