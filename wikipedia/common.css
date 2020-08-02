@@ -556,7 +556,10 @@ div#ruwiki-ku-header {
 
 
 
-
+.template-documentation {
+	background: #efffff !important;
+	border: solid 1px #ddd !important;
+}
 
 
 /*#65df33*/
