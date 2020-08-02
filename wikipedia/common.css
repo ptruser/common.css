@@ -546,7 +546,9 @@ div#ruwiki-ku-header {
 /*#65df33*/
 
 
-
+.mw-body, .parsoid-body {
+	color: #000000 !important;
+}
 
 .mw-body h1,
 .mw-body-content h1,
