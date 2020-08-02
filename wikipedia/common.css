@@ -54,6 +54,11 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 	background: #ccc !important;
 }
 
+.infobox.bordered td, .infobox.bordered th {
+	background-color: #eee !important;
+	border: 1px solid #ddd !important;
+}
+
 .navbox th, .navbox-abovebelow, .navbox-group, .navbox-subgroup, .navbox-title, th.navbox-group {
 	background-color: #ccc !important;
 }
@@ -86,6 +91,38 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 
 #collapsibleTable0 > tbody > tr:nth-child(1) {
 	background-color: #eee !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(even) > th {
+	background-color: #FFE680 !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(30) > td {
+	background-color: #FFE680 !important;
+	border: 1px solid #ddd !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(31) > td {
+	background-color: #FFE680 !important;
+	border: 1px solid #ddd !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(32) > td {
+	background-color: #FFE680 !important;
+	border: 1px solid #ddd !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(32) > td:nth-child(1) {
+	border: 1px solid #ddd !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(33) > td {
+	background-color: #FFE680 !important;
+	border: 1px solid #ddd !important;
+}
+
+#mw-content-text > div > table > tbody > tr:nth-child(33) > td:nth-child(2) {
+	border: 1px solid #ddd !important;
 }
 
 .ambox {
