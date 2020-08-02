@@ -106,7 +106,7 @@ var(--color-background)
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(even) > th {
-	background-color: #FFE680 !important;
+	background-color: #eee !important;
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(30) > td {
