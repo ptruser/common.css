@@ -558,8 +558,38 @@ div#ruwiki-ku-header {
 
 .template-documentation {
 	background: #efffff !important;
-	border: solid 1px #ddd !important;
+	border: 1px solid #ddd !important;
 }
+
+
+
+
+
+div.mw-collapsible.mw-collapsed.mw-made-collapsible {
+	background: #eee !important;
+	border: 1px solid #ddd !important;
+}
+
+div.mw-collapsible.mw-made-collapsible {
+	background: #eee !important;
+	border: 1px solid #ddd !important;
+}
+
+div.mw-collapsible.mw-collapsed.mw-made-collapsible > div {
+	background: #eee !important;
+	border: 1px solid #eee !important;
+}
+
+div.mw-collapsible.mw-made-collapsible > div {
+	background: #eee !important;
+	border: 1px solid #eee !important;
+}
+
+
+
+
+
+
 
 
 /*#65df33*/
