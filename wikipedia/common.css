@@ -9,6 +9,18 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 #aaa
 #666
 #000
+
+#FFE680
+#87DE87
+#FF8068
+
+#D05F71
+#5DCD95
+
+:root {
+	--color-background: #ccc;
+}
+var(--color-background)
 */
 
 .infobox {
