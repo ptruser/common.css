@@ -644,6 +644,10 @@ pre,
 	word-wrap: break-word
 }
 
+pre > span {
+	color: #ccc !important;
+}
+
 code code.mw-highlight {
 	background-color: transparent;
 	border-color: 0;
