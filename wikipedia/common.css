@@ -410,6 +410,18 @@ td.unknown.table-unknown {
 
 
 
+
+table.fmbox-warning {
+	border: 1px solid red !important;
+}
+
+table.ombox-content {
+	border: 1px solid red !important;
+}
+
+
+
+
 .error,
  .warning,
  .success {
