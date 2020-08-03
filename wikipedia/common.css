@@ -18,13 +18,13 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 #5DCD95
 
 :root {
-	--color-background: #ccc;
+	--color-background-color: #ccc;
 }
 var(--color-background)
 */
 
 .infobox {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	border-spacing: 3px;
 	background-color: #eee !important;
 	color: black !important;
@@ -45,30 +45,30 @@ var(--color-background)
 .infobox a,
 .infobox > * > tr:last-child > th,
 .infobox > * > tr:last-child > td {
-	border: 0
+	border-color: 0
 }
 
 .infobox-above {
 	font-size: 120%;
 	text-align: center;
-	background: #ccc !important;
+	background-color: #ccc !important;
 }
 
 .infobox-below {
 	font-size: 120%;
 	text-align: center;
-	background: #ccc !important;
+	background-color: #ccc !important;
 }
 
 .infobox-header {
 	font-size: 110%;
 	text-align: center;
-	background: #ccc !important;
+	background-color: #ccc !important;
 }
 
 .infobox.bordered td, .infobox.bordered th {
 	background-color: #eee !important;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 .navbox th, .navbox-abovebelow, .navbox-group, .navbox-subgroup, .navbox-title, th.navbox-group {
@@ -89,7 +89,7 @@ var(--color-background)
 }
 
 #mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table {
-	border: 1px solid #ccc !important;
+	border-color: 1px solid #ccc !important;
 	background-color: #ccc !important;
 }
 
@@ -111,37 +111,37 @@ var(--color-background)
 
 #mw-content-text > div > table > tbody > tr:nth-child(30) > td {
 	background-color: #FFE680 !important;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(31) > td {
 	background-color: #FFE680 !important;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(32) > td {
 	background-color: #FFE680 !important;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(32) > td:nth-child(1) {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(33) > td {
 	background-color: #FFE680 !important;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 #mw-content-text > div > table > tbody > tr:nth-child(33) > td:nth-child(2) {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 .ambox {
 	margin: 0 10%;
-	border: 1px solid #ddd !important;
-	border-left: 10px solid #0062cc;
-	background: #eee !important;
+	border-color: 1px solid #ddd !important;
+	border-left: 10px solid #0062cc !important;
+	background-color: #eee !important;
 }
 
 table.ambox + table.ambox {
@@ -150,7 +150,7 @@ table.ambox + table.ambox {
 
 
 .catlinks {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	background-color: #eee !important;
 	padding: 5px;
 	margin-top: 1em;
@@ -168,18 +168,18 @@ blockquote {
 
 div.tright, div.floatright, table.floatright {
 	color: #666;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	background-color: #eee !important;
 }
 
 .mw-parser-output .ts-Цитата-container {
 	display: contents !important;
-	background: #FFF !important;
+	background-color: #FFF !important;
 }
 
 .mw-parser-output .ts-Цитата-quote {
 	color: #666;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	border-left: 4px solid #aaa !important;
 	background-color: #eee !important;
 	padding: 5px;
@@ -197,16 +197,16 @@ div.tright, div.floatright, table.floatright {
 
 
 .mbox-image {
-	border: none;
+	border-color: none;
 	padding: 2px 0 2px 0.9em;
 	text-align: center;
-	background: #eee;
+	background-color: #eee !important;
 }
 
 
 
 table.plainlinks {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	background-color: #eee !important;
 	padding: 5px;
 	font-size: 95%;
@@ -226,8 +226,8 @@ table.plainlinks {
 	clear: right;
 	width: 23em;
 	margin: 0 0 1.0em 1.0em;
-	background: #eee !important;
-	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+	border-color: 1px solid #ddd !important;
 	padding: 0.4em;
 	border-spacing: 0.2em;
 	text-align: center;
@@ -239,7 +239,7 @@ table.plainlinks {
 	padding: 0.2em 0;
 	font-weight: bold;
 	color: #000 !important;
-	background: #ccc !important;
+	background-color: #ccc !important;
 }
 
 .mw-parser-output .ts-Боковая_навигационная_таблица-title {
@@ -248,20 +248,20 @@ table.plainlinks {
 	line-height: 1.15em;
 	font-weight: bold;
 	color: #000 !important;
-	background: #2224 !important;
+	background-color: #2224 !important;
 }
 
 #mw-content-text > div > div:nth-child(4) {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 }
 
 #mw-content-text > div > div.main-wrapper {
-	border: 1px solid #FFF !important;
+	border-color: 1px solid #FFF !important;
 }
 
 .mw-parser-output .ts-Раздел_форума-wrapper {
-	background: #eee !important;
-	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+	border-color: 1px solid #ddd !important;
 	margin-bottom: 1em;
 	padding: 0 1.5em;
 	clear: right;
@@ -272,16 +272,16 @@ table.plainlinks {
 	font-size: .95em;
 	padding: .25em;
 	clear: both;
-	background: #ddd !important;
+	background-color: #ddd !important;
 }
 
 #mw-content-text > div > div.nocolbreak.tright > table > tbody > tr > td {
-	background: #eee !important;
-	border: 1px solid #eee !important;
+	background-color: #eee !important;
+	border-color: 1px solid #eee !important;
 }
 
 #mw-content-text > div > div.nocolbreak.tright {
-	border: 1px solid #eee !important;
+	border-color: 1px solid #eee !important;
 }
 
 #mw-content-text > div > div:nth-child(31) > div.nocolbreak.tright > table > tbody > tr > td:nth-child(1) {
@@ -290,8 +290,8 @@ table.plainlinks {
 	font-family: sans-serif;
 	width: 45px;
 	text-align: center;
-	background: #ffeb00 !important;
-	color: #000000;
+	background-color: #ffeb00 !important;
+	color: #000000 !important;
 	font-size: 24pt;
 	font-weight: bold;
 }
@@ -302,8 +302,8 @@ table.plainlinks {
 	padding: 2pt 4pt;
 	line-height: 1.25em;
 	text-align: left;
-	background: #fffdf0 !important;
-	color: #000000;
+	background-color: #fffdf0 !important;
+	color: #000000 !important;
 	font-size: 8pt;
 }
 
@@ -313,7 +313,7 @@ table.plainlinks {
 	background-color: #eee !important;
 	color: #202122 !important;
 	margin: 1em 0;
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	border-collapse: collapse
 }
 
@@ -321,7 +321,7 @@ table.plainlinks {
 .wikitable > tr > td,
 .wikitable > * > tr > th,
 .wikitable > * > tr > td {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	padding: 0.2em 0.4em
 }
 
@@ -355,7 +355,7 @@ table.plainlinks {
 
 
 .standard > tr > th, .standard > tr > td, .standard > * > tr > th, .standard > * > tr > td, .wide > tr > th, .wide > tr > td, .wide > * > tr > th, .wide > * > tr > td {
-	border: 1px solid #ddd !important;
+	border-color: 1px solid #ddd !important;
 	padding: 0.2em 0.4em;
 }
 
@@ -363,7 +363,7 @@ table.plainlinks {
 
 
 .inverted-content-padding {
-	background: #ccc !important;
+	background-color: #ccc !important;
 	padding: 1.3em 0;
 }
 
@@ -412,7 +412,7 @@ td.unknown.table-unknown {
 	max-width: 28.75em;
 	margin: 0;
 	padding: .1rem .75rem;
-	border: #001933 1px solid !important;
+	border-color: #001933 1px solid !important;
 	border-radius: 2px;
 	cursor: pointer;
 	vertical-align: text-top;
@@ -432,8 +432,8 @@ td.unknown.table-unknown {
 }
 
 .mw-parser-output .main-box {
-	background: #eee !important;
-	border: solid #ddd !important;
+	background-color: #eee !important;
+	border-color: solid #ddd !important;
 	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 			box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 	margin: 0 -1rem 1.5rem !important;
@@ -448,7 +448,7 @@ td.unknown.table-unknown {
 a {
 	text-decoration: none;
 	color: blue !important;
-	background: none;
+	background-color: none;
 	font-family: sans-serif;
 }
 
@@ -475,7 +475,7 @@ a.new:visited {
 .toc,
 .mw-warning,
 .toccolours {
-	border: 1px solid #ddd;
+	border-color: 1px solid #ddd;
 	background-color: #eee;
 	padding: 5px;
 	font-size: 95%
@@ -503,28 +503,28 @@ h1 {
 }
 
 table {
-	/*border: 1px solid #ddd !important;*/
-	background: #eee !important;
+	/*border-color: 1px solid #ddd !important;*/
+	background-color: #eee !important;
 }
 
 div.plainlist.plainlinks {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 }
 
 div.portal-column-right-extra-narrow {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 }
 
 div#ruwiki-ku-header {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 }
 
 .mw-parser-output .ts-Закрыто {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 	padding:0 1em;
 	margin:0 auto
 }
@@ -536,18 +536,18 @@ div#ruwiki-ku-header {
 }
 
 #mw-content-text > div > div:nth-child(1) {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 }
 
 #mw-content-text > div > div:nth-child(1) > table > tbody > tr > td > div {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 }
 
 #mw-content-text > div > div:nth-child(1) > table > tbody > tr > td > span {
-	background: #eee !important;
-	border: solid 1px #ddd !important;
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
 }
 
 
@@ -555,7 +555,7 @@ div#ruwiki-ku-header {
 
 
 .compact-ambox table.ambox {
-	border: #eee !important;
+	border-color: #eee !important;
 }
 
 
@@ -565,8 +565,8 @@ div#ruwiki-ku-header {
 
 
 .template-documentation {
-	background: #efffff !important;
-	border: 1px solid #ddd !important;
+	background-color: #efffff !important;
+	border-color: 1px solid #ddd !important;
 }
 
 
@@ -574,23 +574,23 @@ div#ruwiki-ku-header {
 
 
 div.mw-collapsible.mw-collapsed.mw-made-collapsible {
-	background: #eee !important;
-	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+	border-color: 1px solid #ddd !important;
 }
 
 div.mw-collapsible.mw-made-collapsible {
-	background: #eee !important;
-	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+	border-color: 1px solid #ddd !important;
 }
 
 div.mw-collapsible.mw-collapsed.mw-made-collapsible > div {
-	background: #eee !important;
-	border: 1px solid #eee !important;
+	background-color: #eee !important;
+	border-color: 1px solid #eee !important;
 }
 
 div.mw-collapsible.mw-made-collapsible > div {
-	background: #eee !important;
-	border: 1px solid #eee !important;
+	background-color: #eee !important;
+	border-color: 1px solid #eee !important;
 }
 
 
@@ -626,53 +626,59 @@ samp,
 }
 
 code {
-	color: #000;
-	background-color: #eee;
-	border: 1px solid #ddd;
+	color: #000 !important;
+	background-color: #eee !important;
+	border-color: 1px solid #ddd !important;
 	border-radius: 2px;
 	padding: 1px 4px
 }
 
 pre,
 .mw-code {
-	color: #ccc;
-	background-color: #1e1e1e;
-	border: 1px solid #ddd;
+	color: #ccc !important;
+	background-color: #1e1e1e !important;
+	border-color: 1px solid #ddd !important;
 	padding: 1em;
 	white-space: pre-wrap;
 	overflow-x: hidden;
 	word-wrap: break-word
 }
 
+code code.mw-highlight {
+	background-color: transparent;
+	border-color: 0;
+	padding: 0
+}
+
 div.thumbinner {
-	border: 1px solid #eee;
+	border-color: 1px solid #eee !important;
 	padding: 3px;
-	background-color: #eee;
+	background-color: #eee !important;
 	font-size: 85%;
 	text-align: center;
 	overflow: hidden
 }
 
 html .thumbimage {
-	background-color: #fff;
-	border: 1px solid #c8ccd1
+	background-color: #fff !important;
+	border-color: 1px solid #ddd !important
 }
 
 .mw-highlight .hll {
-	background-color: #cb66ff60
+	background-color: #cb66ff60 !important
 }
 
 .mw-highlight {
-	background: #eee
+	background-color: #eee !important
 }
 
 .mw-highlight .c {
-	color: #408080;
+	color: #408080 !important;
 	font-style: italic
 }
 
 .mw-highlight .err {
-	border: 1px solid #FF0000
+	border-color: 1px solid #FF0000 !important
 }
 
 
@@ -680,7 +686,7 @@ html .thumbimage {
 
 
 .mw-highlight .k {
-	color: #7F7F7F;
+	color: #7F7F7F !important;
 	font-weight: bold
 }
 
@@ -689,16 +695,16 @@ html .thumbimage {
 
 
 .mw-highlight .o {
-	color: #D6004B
+	color: #D6004B !important
 }
 
 .mw-highlight .ch {
-	color: #408080;
+	color: #408080 !important;
 	font-style: italic
 }
 
 .mw-highlight .cm {
-	color: #408080;
+	color: #408080 !important;
 	font-style: italic
 }
 
@@ -715,22 +721,22 @@ html .thumbimage {
 
 
 .mw-highlight .cpf {
-	color: #F09819;
+	color: #F09819 !important;
 	font-style: italic
 }
 
 .mw-highlight .c1 {
-	color: #0E800A;
+	color: #0E800A !important;
 	font-style: italic
 }
 
 .mw-highlight .cs {
-	color: #408080;
+	color: #408080 !important;
 	font-style: italic
 }
 
 .mw-highlight .gd {
-	color: #A00000
+	color: #A00000 !important
 }
 
 .mw-highlight .ge {
@@ -738,7 +744,7 @@ html .thumbimage {
 }
 
 .mw-highlight .gr {
-	color: #FF0000
+	color: #FF0000 !important
 }
 
 .mw-highlight .gh {
@@ -747,15 +753,15 @@ html .thumbimage {
 }
 
 .mw-highlight .gi {
-	color: #00A000
+	color: #00A000 !important
 }
 
 .mw-highlight .go {
-	color: #888888
+	color: #888888 !important
 }
 
 .mw-highlight .gp {
-	color: #000080;
+	color: #000080 !important;
 	font-weight: bold
 }
 
@@ -764,35 +770,35 @@ html .thumbimage {
 }
 
 .mw-highlight .gu {
-	color: #800080;
+	color: #800080 !important;
 	font-weight: bold
 }
 
 .mw-highlight .gt {
-	color: #0044DD
+	color: #0044DD !important
 }
 
 .mw-highlight .kc {
-	color: #F953C6;
+	color: #F953C6 !important;
 	font-weight: bold
 }
 
 .mw-highlight .kd {
-	color: #EA384D;
+	color: #EA384D !important;
 	font-weight: bold
 }
 
 .mw-highlight .kn {
-	color: #6A3093;
+	color: #6A3093 !important;
 	font-weight: bold
 }
 
 .mw-highlight .kp {
-	color: #008000
+	color: #008000 !important
 }
 
 .mw-highlight .kr {
-	color: #6A3093;
+	color: #6A3093 !important;
 	font-weight: bold
 }
 
@@ -801,11 +807,11 @@ html .thumbimage {
 
 
 .mw-highlight .kt {
-	color: #68f
+	color: #68f !important
 }
 
 .mw-highlight .m {
-	color: #666666
+	color: #666666 !important
 }
 
 
@@ -813,37 +819,37 @@ html .thumbimage {
 
 
 .mw-highlight .s {
-	color: #F09819
+	color: #F09819 !important
 }
 
 .mw-highlight .na {
-	color: #7D9029
+	color: #7D9029 !important
 }
 
 .mw-highlight .nb {
-	color: #B2B2B2
+	color: #B2B2B2 !important
 }
 
 .mw-highlight .nc {
-	color: #EA384D;
+	color: #EA384D !important;
 	font-weight: bold
 }
 
 .mw-highlight .no {
-	color: #880000
+	color: #880000 !important
 }
 
 .mw-highlight .nd {
-	color: #AA22FF
+	color: #AA22FF !important
 }
 
 .mw-highlight .ni {
-	color: #999999;
+	color: #999999 !important;
 	font-weight: bold
 }
 
 .mw-highlight .ne {
-	color: #D2413A;
+	color: #D2413A !important;
 	font-weight: bold
 }
 
@@ -851,24 +857,24 @@ html .thumbimage {
 /* function name */
 
 .mw-highlight .na {
-	color: #EA384D
+	color: #EA384D !important
 }
 
 .mw-highlight .nf {
-	color: #EA384D
+	color: #EA384D !important
 }
 
 .mw-highlight .nl {
-	color: #B2B2B2
+	color: #B2B2B2 !important
 }
 
 .mw-highlight .nn {
-	color: #F09819;
+	color: #F09819 !important;
 	font-weight: bold
 }
 
 .mw-highlight .nt {
-	color: #3295ea;
+	color: #3295ea !important;
 	font-weight: bold
 }
 
@@ -877,16 +883,16 @@ html .thumbimage {
 }
 
 .mw-highlight .ow {
-	color: #AA22FF;
+	color: #AA22FF !important;
 	font-weight: bold
 }
 
 .mw-highlight .w {
-	color: #bbbbbb
+	color: #bbbbbb !important
 }
 
 .mw-highlight .mb {
-	color: #F953C6
+	color: #F953C6 !important
 }
 
 
@@ -894,11 +900,11 @@ html .thumbimage {
 
 
 .mw-highlight .mf {
-	color: #F953C6
+	color: #F953C6 !important
 }
 
 .mw-highlight .mh {
-	color: #F953C6
+	color: #F953C6 !important
 }
 
 
@@ -906,19 +912,19 @@ html .thumbimage {
 
 
 .mw-highlight .mi {
-	color: #F953C6
+	color: #F953C6 !important
 }
 
 .mw-highlight .mo {
-	color: #F953C6
+	color: #F953C6 !important
 }
 
 .mw-highlight .sa {
-	color: #F09819
+	color: #F09819 !important
 }
 
 .mw-highlight .sb {
-	color: #F09819
+	color: #F09819 !important
 }
 
 
@@ -926,15 +932,15 @@ html .thumbimage {
 
 
 .mw-highlight .sc {
-	color: #F09819
+	color: #F09819 !important
 }
 
 .mw-highlight .dl {
-	color: #F09819
+	color: #F09819 !important
 }
 
 .mw-highlight .sd {
-	color: #F09819;
+	color: #F09819 !important;
 	font-style: italic
 }
 
@@ -943,7 +949,7 @@ html .thumbimage {
 
 
 .mw-highlight .s2 {
-	color: #F09819
+	color: #F09819 !important
 }
 
 
@@ -951,61 +957,61 @@ html .thumbimage {
 
 
 .mw-highlight .se {
-	color: #F09819;
+	color: #F09819 !important;
 	font-weight: bold
 }
 
 .mw-highlight .sh {
-	color: #F09819
+	color: #F09819 !important
 }
 
 .mw-highlight .si {
-	color: #BB6688;
+	color: #BB6688 !important;
 	font-weight: bold
 }
 
 .mw-highlight .sx {
-	color: #008000
+	color: #008000 !important
 }
 
 .mw-highlight .sr {
-	color: #BB6688
+	color: #BB6688 !important
 }
 
 .mw-highlight .s1 {
-	color: #F09819;
+	color: #F09819 !important;
 }
 
 .mw-highlight .ss {
-	color: #19177C
+	color: #19177C !important
 }
 
 .mw-highlight .bp {
-	color: #68f
+	color: #68f !important
 }
 
 .mw-highlight .fm {
-	color: #0000FF
+	color: #0000FF !important
 }
 
 .mw-highlight .vc {
-	color: #19177C
+	color: #19177C !important
 }
 
 .mw-highlight .vg {
-	color: #19177C
+	color: #19177C !important
 }
 
 .mw-highlight .vi {
-	color: #19177C
+	color: #19177C !important
 }
 
 .mw-highlight .vm {
-	color: #19177C
+	color: #19177C !important
 }
 
 .mw-highlight .il {
-	color: #666666
+	color: #666666 !important
 }
 
 .mw-highlight {
@@ -1017,12 +1023,6 @@ html .thumbimage {
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4
-}
-
-code code.mw-highlight {
-	background-color: transparent;
-	border: 0;
-	padding: 0
 }
 
 div.mw-highlight {
