@@ -368,9 +368,17 @@ table.plainlinks {
 }
 
 
+td.table-no {
+	background-color: #ff8080 !important;
+}
 
+td.active.table-active {
+	background-color: #80ff80 !important;
+}
 
-
+td.unknown.table-unknown {
+	background-color: #ce80ff !important;
+}
 
 
 
