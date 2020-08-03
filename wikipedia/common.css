@@ -181,11 +181,12 @@ blockquote {
 	overflow: auto;
 }
 
-div.tright, div.floatright, table.floatright {
+div.tright, div.floatright {
 	color: #666;
 	border-color: 1px solid #ddd !important;
 	background-color: #eee !important;
 }
+
 
 .mw-parser-output .ts-Цитата-container {
 	display: contents !important;
@@ -325,7 +326,7 @@ table.plainlinks {
 
 
 .wikitable {
-	color: #202122 !important;
+	color: #000 !important;
 	margin: 1em 0;
 	border: 1px solid #ddd !important;
 	background: #eee !important;
@@ -350,9 +351,17 @@ table.plainlinks {
 	font-weight: bold
 }
 
+table.floatright {
+	color: #000 !important;
+	margin: 1em 0;
+	border: 1px solid #ddd !important;
+	background: #eee !important;
+	border-collapse: collapse
+}
+
 #mw-content-text > div > table.wikitable > tbody > tr:nth-child(odd) {
 	color: #000 !important;
-	background-color: #ddd !important;
+	background: #ddd !important;
 }
 
 #mw-content-text > div > table.infobox.vcard > tbody > tr:nth-child(odd) > th {
