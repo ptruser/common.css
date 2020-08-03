@@ -187,6 +187,9 @@ div.tright, div.floatright {
 	background-color: #eee !important;
 }
 
+.mw-parser-output .ts-Начало_цитаты-quote {
+	border: none;
+}
 
 .mw-parser-output .ts-Цитата-container {
 	display: contents !important;
