@@ -137,6 +137,14 @@ var(--color-background)
 	border-color: 1px solid #ddd !important;
 }
 
+#mw-content-text > div > table.vertical-navbox.nowraplinks > tbody > tr:nth-child(1) > th {
+	background-color: #ccc !important;
+}
+
+#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr:nth-child(odd) > th {
+	background-color: #ccc !important;
+}
+
 .ambox {
 	margin: 0 10%;
 	border-color: 1px solid #ddd !important;
@@ -147,6 +155,9 @@ var(--color-background)
 table.ambox + table.ambox {
 	margin-top: 5px !important;
 }
+
+
+
 
 
 .catlinks {
