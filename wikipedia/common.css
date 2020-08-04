@@ -183,6 +183,9 @@ table.ambox + table.ambox {
 	margin-top: 5px !important;
 }
 
+div.NavHead {
+	background-color: #ddd !important;
+}
 
 
 
