@@ -1,4 +1,3 @@
-/*
 Add to
 https://ru.wikipedia.org/wiki/Участник:<Username>/common.css
 https://en.wikipedia.org/wiki/User:<Username>/common.css
@@ -91,16 +90,16 @@ var(--color-background)
 	border-bottom: 1px solid #000 !important;
 }
 
-#mw-content-text > div > table > tbody > tr > td > table {
+#mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table {
 	border-color: 1px solid #ccc !important;
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table > tbody > tr > td > table > tbody > tr > td > table {
+#mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(3) > table {
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table.infobox > tbody > tr > td {
+#mw-content-text > div > table.infobox > tbody > tr:nth-child(26) > td {
 	background-color: #eee !important;
 }
 
@@ -108,16 +107,15 @@ var(--color-background)
 	background-color: #eee !important;
 }
 
-/*#mw-content-text > div > table > tbody > tr:nth-child(even) > th {
+#mw-content-text > div > table > tbody > tr:nth-child(even) > th {
 	background-color: #eee !important;
-}*/
+}
 
-#mw-content-text > div > table > tbody > tr > td {
-	background-color: #eee !important;
+#mw-content-text > div > table > tbody > tr:nth-child(30) > td {
+	background-color: #FFE680 !important;
 	border-color: 1px solid #ddd !important;
 }
 
-/*
 #mw-content-text > div > table > tbody > tr:nth-child(31) > td {
 	background-color: #FFE680 !important;
 	border-color: 1px solid #ddd !important;
@@ -140,36 +138,36 @@ var(--color-background)
 #mw-content-text > div > table > tbody > tr:nth-child(33) > td:nth-child(2) {
 	border-color: 1px solid #ddd !important;
 }
-*/
-#mw-content-text > div > table.vertical-navbox.nowraplinks > tbody > tr > th {
+
+#mw-content-text > div > table.vertical-navbox.nowraplinks > tbody > tr:nth-child(1) > th {
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr > th {
+#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr:nth-child(odd) > th {
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr > td > table > tbody > tr > th {
+#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr:nth-child(even) > td > table > tbody > tr:nth-child(2) > th {
 	background-color: #ddd !important;
 }
 
 #mw-content-text > div > div:nth-child(1) {
 	background-color: #eee !important;
-	border: solid 1px #ddd !important;
+	border-color: solid 1px #ddd !important;
 }
 
-#mw-content-text > div > div > table > tbody > tr > td > div {
+#mw-content-text > div > div:nth-child(1) > table > tbody > tr > td > div {
 	background-color: #eee !important;
 	border-color: solid 1px #ddd !important;
 }
 
-#mw-content-text > div > div > table > tbody > tr > td > span {
+#mw-content-text > div > div:nth-child(1) > table > tbody > tr > td > span {
 	background-color: #eee !important;
 	border-color: solid 1px #ddd !important;
 }
 
-#mw-content-text > div > table > tbody > tr > th {
-	background: #ddd !important;
+#mw-content-text > div > table:only-child > tbody > tr:only-child > th {
+	background: #ccc !important;
 }
 
 .ambox {
@@ -183,9 +181,6 @@ table.ambox + table.ambox {
 	margin-top: 5px !important;
 }
 
-div.NavHead {
-	background-color: #ddd !important;
-}
 
 
 
@@ -257,7 +252,9 @@ table.plainlinks {
 	font-size: 95%;
 }
 
-
+div.NavHead {
+	background-color: #ddd !important;
+}
 
 
 
@@ -540,8 +537,8 @@ a.new:visited {
 .toc,
 .mw-warning,
 .toccolours {
-	border: 1px solid #ddd !important;
-	background-color: #eee !important;
+	border-color: 1px solid #ddd;
+	background-color: #eee;
 	padding: 5px;
 	font-size: 95%
 }
