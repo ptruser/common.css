@@ -40,6 +40,9 @@ var(--color-background)
 .infobox > * > tr > th {
 	padding: 2px 5px;
 	border-bottom: 1px solid #000 !important;
+	border-top: 1px solid #eee !important;
+	border-left: 1px solid #eee !important;
+	border-right: 1px solid #eee !important;
 }
 
 .infobox a,
@@ -88,16 +91,16 @@ var(--color-background)
 	border-bottom: 1px solid #000 !important;
 }
 
-#mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table {
+#mw-content-text > div > table > tbody > tr > td > table {
 	border-color: 1px solid #ccc !important;
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table:nth-child(2) > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(3) > table {
+#mw-content-text > div > table > tbody > tr > td > table > tbody > tr > td > table {
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table.infobox > tbody > tr:nth-child(26) > td {
+#mw-content-text > div > table.infobox > tbody > tr > td {
 	background-color: #eee !important;
 }
 
@@ -105,15 +108,16 @@ var(--color-background)
 	background-color: #eee !important;
 }
 
-#mw-content-text > div > table > tbody > tr:nth-child(even) > th {
+/*#mw-content-text > div > table > tbody > tr:nth-child(even) > th {
 	background-color: #eee !important;
-}
+}*/
 
-#mw-content-text > div > table > tbody > tr:nth-child(30) > td {
-	background-color: #FFE680 !important;
+#mw-content-text > div > table > tbody > tr > td {
+	background-color: #eee !important;
 	border-color: 1px solid #ddd !important;
 }
 
+/*
 #mw-content-text > div > table > tbody > tr:nth-child(31) > td {
 	background-color: #FFE680 !important;
 	border-color: 1px solid #ddd !important;
@@ -136,17 +140,36 @@ var(--color-background)
 #mw-content-text > div > table > tbody > tr:nth-child(33) > td:nth-child(2) {
 	border-color: 1px solid #ddd !important;
 }
-
-#mw-content-text > div > table.vertical-navbox.nowraplinks > tbody > tr:nth-child(1) > th {
+*/
+#mw-content-text > div > table.vertical-navbox.nowraplinks > tbody > tr > th {
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr:nth-child(odd) > th {
+#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr > th {
 	background-color: #ccc !important;
 }
 
-#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr:nth-child(even) > td > table > tbody > tr:nth-child(2) > th {
+#mw-content-text > div > table.vertical-navbox.nowraplinks.hlist > tbody > tr > td > table > tbody > tr > th {
 	background-color: #ddd !important;
+}
+
+#mw-content-text > div > div:nth-child(1) {
+	background-color: #eee !important;
+	border: solid 1px #ddd !important;
+}
+
+#mw-content-text > div > div > table > tbody > tr > td > div {
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
+}
+
+#mw-content-text > div > div > table > tbody > tr > td > span {
+	background-color: #eee !important;
+	border-color: solid 1px #ddd !important;
+}
+
+#mw-content-text > div > table > tbody > tr > th {
+	background: #ddd !important;
 }
 
 .ambox {
@@ -514,8 +537,8 @@ a.new:visited {
 .toc,
 .mw-warning,
 .toccolours {
-	border-color: 1px solid #ddd;
-	background-color: #eee;
+	border: 1px solid #ddd !important;
+	background-color: #eee !important;
 	padding: 5px;
 	font-size: 95%
 }
@@ -574,20 +597,7 @@ div#ruwiki-ku-header {
 	font-size:90%
 }
 
-#mw-content-text > div > div:nth-child(1) {
-	background-color: #eee !important;
-	border-color: solid 1px #ddd !important;
-}
 
-#mw-content-text > div > div:nth-child(1) > table > tbody > tr > td > div {
-	background-color: #eee !important;
-	border-color: solid 1px #ddd !important;
-}
-
-#mw-content-text > div > div:nth-child(1) > table > tbody > tr > td > span {
-	background-color: #eee !important;
-	border-color: solid 1px #ddd !important;
-}
 
 
 
