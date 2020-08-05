@@ -584,7 +584,7 @@ table.plainlinks.tmbox.tmbox-content.tmbox-controversial-issues,
 table.box-In_use.plainlinks.ombox.ombox-notice.ambox-In_use,
 table.plainlinks.ombox-notice,
 table.box-Under_construction.plainlinks.ombox.ombox-notice {
-	margin: 0 10%;
+	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #ff9700 !important;
 	background-color: #eee !important;
@@ -592,7 +592,7 @@ table.box-Under_construction.plainlinks.ombox.ombox-notice {
 
 table.plainlinks.ombox.ombox-speedy,
 table.plainlinks.ombox.ombox-style {
-	margin: 0 10%;
+	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #ffd700 !important;
 	background-color: #eee !important;
@@ -603,7 +603,7 @@ table.plainlinks.cmbox.cmbox-delete,
 table.plainlinks.imbox.imbox-delete,
 table.plainlinks.ombox.ombox-delete,
 table.plainlinks.cmbox.cmbox-content {
-	margin: 0 10%;
+	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #cc0000 !important;
 	background-color: #eee !important;
@@ -622,7 +622,7 @@ table.plainlinks.cmbox.cmbox-notice,
 table.plainlinks.cmbox.cmbox-content,
 table.plainlinks.cmbox.cmbox-move,
 table.plainlinks.cmbox.cmbox-style {
-	margin: 0 10%;
+	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
 	background-color: #eee !important;
