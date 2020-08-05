@@ -608,7 +608,11 @@ table.plainlinks.ombox.ombox-delete {
 table.plainlinks.tmbox.tmbox-notice,
 table.box-Uncategorized.plainlinks.ombox.ombox-style.ambox-uncategorized,
 table.plainlinks.tmbox.tmbox-move.ambox-mergeto,
-table.plainlinks.ombox.ombox-move {
+table.plainlinks.ombox.ombox-move,
+table.plainlinks.tmbox.tmbox-move,
+table.plainlinks.imbox.imbox-style,
+table.plainlinks.imbox.imbox-movel,
+table.box-ShadowsCommons.plainlinks.imbox.imbox-notice {
 	margin: 0 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
