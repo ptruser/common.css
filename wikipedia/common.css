@@ -564,6 +564,14 @@ table.plainlinks {
 	font-size: 95%;
 }
 
+
+table.toccolours.plainlinks > tbody > tr > * {
+	color: #000 !important;
+	border: 1px solid #eee !important;
+	background: #eee !important;
+	padding: 5px;
+}
+
 table.plainlinks.ombox.ombox-speedy,
 table.plainlinks.ombox.ombox-style {
 	margin: 0 10%;
