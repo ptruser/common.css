@@ -606,7 +606,9 @@ table.plainlinks.ombox.ombox-delete {
 
 .ambox,
 table.plainlinks.tmbox.tmbox-notice,
-table.box-Uncategorized.plainlinks.ombox.ombox-style.ambox-uncategorized {
+table.box-Uncategorized.plainlinks.ombox.ombox-style.ambox-uncategorized,
+table.plainlinks.tmbox.tmbox-move.ambox-mergeto,
+table.plainlinks.ombox.ombox-move {
 	margin: 0 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
