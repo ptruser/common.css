@@ -602,7 +602,9 @@ table.ambox-delete,
 table.plainlinks.cmbox.cmbox-delete,
 table.plainlinks.imbox.imbox-delete,
 table.plainlinks.ombox.ombox-delete,
-table.plainlinks.cmbox.cmbox-content {
+table.plainlinks.cmbox.cmbox-content,
+table.plainlinks.imbox.imbox-license.licensetpl,
+table.imbox.imbox-license.licensetpl {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #cc0000 !important;
@@ -621,7 +623,11 @@ table.box-ShadowsCommons.plainlinks.imbox.imbox-notice,
 table.plainlinks.cmbox.cmbox-notice,
 table.plainlinks.cmbox.cmbox-content,
 table.plainlinks.cmbox.cmbox-move,
-table.plainlinks.cmbox.cmbox-style {
+table.plainlinks.cmbox.cmbox-style,
+table.plainlinks.imbox.imbox-content,
+table.box-Imagewatermark.plainlinks.imbox.imbox-content,
+table.plainlinks.imbox.imbox-notice,
+table.plainlinks.imbox.imbox-move {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
