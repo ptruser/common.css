@@ -729,12 +729,12 @@ div#ruwiki-ku-header {
 	border: 1px solid #ddd !important;
 }
 
-.messagebox.standard-talk {
+.messagebox.standard-talk,
+div.boilerplate,
+div.boilerplate.discussion-archived {
 	border: 1px solid #FFE680 !important;
 	background-color: #FFE680 !important;
 }
-
-
 
 .template-documentation {
 	background-color: #efffff !important;
@@ -773,6 +773,26 @@ div.mw-collapsible.mw-collapsed.mw-made-collapsible > div {
 div.mw-collapsible.mw-made-collapsible > div {
 	background-color: #eee !important;
 	border-color: 1px solid #eee !important;
+}
+
+div.unresolved > span {
+	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+}
+
+div.resolved > span {
+	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+}
+
+div.stale > span {
+	border: 1px solid #ddd !important;
+	background-color: #eee !important;
+}
+
+div.stuck > span {
+	border: 1px solid #ddd !important;
+	background-color: #eee !important;
 }
 
 span.example {
