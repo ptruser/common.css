@@ -635,7 +635,9 @@ table.plainlinks.imbox.imbox-move,
 table.tmbox.tmbox-notice.tmbox-high-traffic,
 table.plainlinks.tmbox.tmbox-style,
 table.plainlinks.tmbox.tmbox-content,
-table.tmbox.tmbox-notice.mw-collapsible.innercollapse.wpb.mw-made-collapsible {
+table.tmbox.tmbox-notice.mw-collapsible.innercollapse.wpb.mw-made-collapsible,
+table.plainlinks.tmbox.tmbox-protection,
+table.plainlinks.ombox.ombox-content {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
@@ -737,7 +739,7 @@ div.boilerplate.discussion-archived {
 }
 
 .template-documentation {
-	background-color: #efffff !important;
+	background-color: lightcyan !important;
 	border-color: 1px solid #ddd !important;
 }
 
