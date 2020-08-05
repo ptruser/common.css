@@ -557,6 +557,10 @@ table {
 	background: #ccc !important;
 }
 
+table > tbody > tr > th {
+	color: #000 !important;
+}
+
 table.plainlinks {
 	border-color: 1px solid #ddd !important;
 	background-color: #eee !important;
