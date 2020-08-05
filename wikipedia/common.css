@@ -710,8 +710,15 @@ div#ruwiki-ku-header {
 }
 
 
+.messagebox {
+	background-color: #eee !important;
+	border: 1px solid #ddd !important;
+}
 
-
+.messagebox.standard-talk {
+	border: 1px solid #FFE680 !important;
+	background-color: #FFE680 !important;
+}
 
 
 
