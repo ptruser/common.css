@@ -513,7 +513,7 @@ a.new:visited {
 }
 
 
-#toc, .toc, .mw-warning, .toccolours {
+.toc, .mw-warning, .toccolours {
 	border: 1px solid #ddd;
 	background-color: #eee;
 	padding: 5px;
