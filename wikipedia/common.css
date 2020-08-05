@@ -583,7 +583,9 @@ table.plainlinks.tmbox.tmbox-content.tmbox-controversial,
 table.plainlinks.tmbox.tmbox-content.tmbox-controversial-issues,
 table.box-In_use.plainlinks.ombox.ombox-notice.ambox-In_use,
 table.plainlinks.ombox-notice,
-table.box-Under_construction.plainlinks.ombox.ombox-notice {
+table.box-Under_construction.plainlinks.ombox.ombox-notice,
+table.plainlinks.tmbox.tmbox-content.tmbox-not-a-forum,
+table.box-Warning.plainlinks.tmbox.tmbox-content {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #ff9700 !important;
@@ -591,7 +593,8 @@ table.box-Under_construction.plainlinks.ombox.ombox-notice {
 }
 
 table.plainlinks.ombox.ombox-speedy,
-table.plainlinks.ombox.ombox-style {
+table.plainlinks.ombox.ombox-style,
+table.box-Caution.plainlinks.tmbox.tmbox-style {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #ffd700 !important;
@@ -604,7 +607,8 @@ table.plainlinks.imbox.imbox-delete,
 table.plainlinks.ombox.ombox-delete,
 table.plainlinks.cmbox.cmbox-content,
 table.plainlinks.imbox.imbox-license.licensetpl,
-table.imbox.imbox-license.licensetpl {
+table.imbox.imbox-license.licensetpl,
+table.plainlinks.tmbox.tmbox-content.tmbox-censor {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #cc0000 !important;
@@ -627,7 +631,11 @@ table.plainlinks.cmbox.cmbox-style,
 table.plainlinks.imbox.imbox-content,
 table.box-Imagewatermark.plainlinks.imbox.imbox-content,
 table.plainlinks.imbox.imbox-notice,
-table.plainlinks.imbox.imbox-move {
+table.plainlinks.imbox.imbox-move,
+table.tmbox.tmbox-notice.tmbox-high-traffic,
+table.plainlinks.tmbox.tmbox-style,
+table.plainlinks.tmbox.tmbox-content,
+table.tmbox.tmbox-notice.mw-collapsible.innercollapse.wpb.mw-made-collapsible {
 	margin: 4px 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
