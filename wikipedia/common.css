@@ -749,11 +749,11 @@ samp,
 }
 
 code {
-	color: #000 !important;
-	background-color: #eee !important;
-	border-color: 1px solid #ddd !important;
-	border-radius: 2px;
-	padding: 1px 4px
+    color: #ccc !important;
+    background-color: #1e1e1e !important;
+    border: 1px solid #1e1e1e !important;
+    border-radius: 2px;
+    padding: 1px 4px;
 }
 
 pre,
