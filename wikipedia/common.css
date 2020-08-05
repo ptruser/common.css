@@ -576,7 +576,10 @@ table.toccolours.plainlinks > tbody > tr > * {
 }
 
 table.plainlinks.tmbox.tmbox-content.tmbox-controversial,
-table.plainlinks.tmbox.tmbox-content.tmbox-controversial-issues {
+table.plainlinks.tmbox.tmbox-content.tmbox-controversial-issues,
+table.box-In_use.plainlinks.ombox.ombox-notice.ambox-In_use,
+table.plainlinks.ombox-notice,
+table.box-Under_construction.plainlinks.ombox.ombox-notice {
 	margin: 0 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #ff9700 !important;
