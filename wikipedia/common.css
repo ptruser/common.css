@@ -735,6 +735,16 @@ div.mw-collapsible.mw-made-collapsible > div {
 	border-color: 1px solid #eee !important;
 }
 
+span.example {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #1cbb00;
+}
+
+span.example.deprecated-content.example-bad {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #bb0000;
+}
+
 
 
 
