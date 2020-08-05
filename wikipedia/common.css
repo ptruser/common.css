@@ -43,6 +43,7 @@ var(--color-background)
 	border-top: 1px solid #eee !important;
 	border-left: 1px solid #eee !important;
 	border-right: 1px solid #eee !important;
+	background: #eee !important;
 }
 
 .infobox a,
@@ -567,7 +568,6 @@ h1 {
 
 table {
 	color: #000 !important;
-	margin: 1em 0;
 	border: 1px solid #ddd !important;
 	background: #eee !important;
 	border-collapse: collapse;
