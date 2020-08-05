@@ -24,16 +24,17 @@ var(--color-background)
 */
 
 .infobox {
-	border-color: 1px solid #ddd !important;
 	border-spacing: 3px;
+	border-collapse: inherit;
 	background-color: #eee !important;
-	color: black !important;
-	margin: 0.5em 0 0.5em 1em;
-	padding: 0.2em;
-	float: right;
+	border-color: 1px solid #ddd !important;
 	clear: right;
+	color: black !important;
+	float: right;
 	font-size: 88%;
 	line-height: 1.5em;
+	margin: 0.5em 0 0.5em 1em;
+	padding: 0.2em;
 }
 
 .infobox > * > tr > td,
@@ -567,6 +568,7 @@ h1 {
 }
 
 table {
+	margin: 1em 0;
 	color: #000 !important;
 	border: 1px solid #ddd !important;
 	background: #eee !important;
