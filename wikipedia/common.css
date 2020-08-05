@@ -173,17 +173,6 @@ var(--color-background)
 	background: #ccc !important;
 }
 
-.ambox {
-	margin: 0 10%;
-	border-color: 1px solid #ddd !important;
-	border-left: 10px solid #0062cc !important;
-	background-color: #eee !important;
-}
-
-table.ambox + table.ambox {
-	margin-top: 5px !important;
-}
-
 
 
 
@@ -537,9 +526,8 @@ a.new:visited {
 	color: #d33050 !important
 }
 
-.toc,
-.mw-warning,
-.toccolours {
+
+#toc, .toc, .mw-warning, .toccolours {
 	border: 1px solid #ddd;
 	background-color: #eee;
 	padding: 5px;
@@ -583,8 +571,24 @@ table {
 	background: #ccc !important;
 }
 
+.ambox {
+	margin: 0 10%;
+	border-color: 1px solid #ddd !important;
+	border-left: 10px solid #0062cc !important;
+	background-color: #eee !important;
+}
+
+table.ambox + table.ambox {
+	margin-top: 5px !important;
+}
+
+
 th.mbox-text, td.mbox-text {
 	background-color: #eee !important;
+}
+
+.ambox td.mbox-imageright {
+	background: #eee !important;
 }
 
 table >  tbody > tr:nth-child(odd) {
