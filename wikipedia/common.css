@@ -643,6 +643,16 @@ table > tbody > tr:nth-child(even) > th {
 	background-color: #eee !important;
 }
 
+table > tbody > tr > td > table > tbody > tr > td {
+	border: 1px solid #eee !important;
+	background-color: #eee !important;
+}
+
+table > tbody > tr:nth-child(even) > td:nth-child(even) > div > table > tbody > tr > td {
+	border: 1px solid #eee !important;
+	background-color: #eee !important;
+}
+
 div.plainlist.plainlinks {
 	background-color: #eee !important;
 	border-color: solid 1px #ddd !important;
