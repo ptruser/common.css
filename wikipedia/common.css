@@ -975,8 +975,9 @@ html .thumbimage {
 	color: #888888 !important
 }
 
+/* $ */
 .mw-highlight .gp {
-	color: #000080 !important;
+	color: cyan !important;
 	font-weight: bold
 }
 
