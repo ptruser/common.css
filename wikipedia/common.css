@@ -566,12 +566,29 @@ h1 {
 }
 
 table {
-	/*border-color: 1px solid #ddd !important;*/
-	background-color: #eee !important;
+	color: #000 !important;
+	margin: 1em 0;
+	border: 1px solid #ddd !important;
+	background: #eee !important;
+	border-collapse: collapse;
 }
 
 .biota th[colspan="2"] {
 	background: #ccc !important;
+}
+
+table >  tbody > tr:nth-child(odd) {
+	color: #000 !important;
+	background: #ddd !important;
+}
+
+table > tbody > tr > th {
+	background: #ddd !important;
+	text-align: center;
+}
+
+table > tbody > tr:nth-child(even) > th {
+	background-color: #eee !important;
 }
 
 div.plainlist.plainlinks {
