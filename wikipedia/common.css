@@ -743,9 +743,6 @@ div.boilerplate.discussion-archived {
 	border-color: 1px solid #ddd !important;
 }
 
-form {
-	background-color: #eee;
-}
 
 
 
@@ -840,11 +837,11 @@ samp,
 }
 
 code {
-    color: #ccc !important;
-    background-color: #1e1e1e !important;
-    border: 1px solid #1e1e1e !important;
-    border-radius: 2px;
-    padding: 1px 4px;
+	color: #ccc !important;
+	background-color: #1e1e1e !important;
+	border: 1px solid #1e1e1e !important;
+	border-radius: 2px;
+	padding: 1px 4px;
 }
 
 pre,
