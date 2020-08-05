@@ -788,7 +788,7 @@ code code.mw-highlight {
 }
 
 div.thumbinner {
-	border-color: 1px solid #eee !important;
+	border: 1px solid #eee !important;
 	padding: 3px;
 	background-color: #eee !important;
 	font-size: 85%;
