@@ -4,6 +4,8 @@
    alt="Logo won't load :-(. It shows shades of gray - primary colors in a color scheme.">
 </p>
 
+[![Github all releases](https://img.shields.io/github/downloads/1nfdev/common.css/total.svg)](https://github.com/1nfdev/common.css/releases/)
+
 # About
 
 ❤️ Minimal aestheic with highly refined color palettes
