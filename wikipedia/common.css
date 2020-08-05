@@ -10,6 +10,8 @@ https://en.wikipedia.org/wiki/User:<Username>/common.css
 #666
 #000
 
+#bbb
+
 #FFE680
 #87DE87
 #FF8068
@@ -114,7 +116,7 @@ var(--color-background)
 	background-color: #eee !important;
 }
 
-#mw-content-text > div > table > tbody > tr:nth-child(30) > td {
+/*#mw-content-text > div > table > tbody > tr:nth-child(30) > td {
 	background-color: #FFE680 !important;
 	border-color: 1px solid #ddd !important;
 }
@@ -140,7 +142,7 @@ var(--color-background)
 
 #mw-content-text > div > table > tbody > tr:nth-child(33) > td:nth-child(2) {
 	border-color: 1px solid #ddd !important;
-}
+}*/
 
 #mw-content-text > div > table.vertical-navbox.nowraplinks > tbody > tr:nth-child(1) > th {
 	background-color: #ccc !important;
@@ -227,22 +229,6 @@ div.tright, div.floatright {
 	display: none;
 }
 
-
-.mbox-image {
-	border-color: none;
-	padding: 2px 0 2px 0.9em;
-	text-align: center;
-	background-color: #eee !important;
-}
-
-
-
-table.plainlinks {
-	border-color: 1px solid #ddd !important;
-	background-color: #eee !important;
-	padding: 5px;
-	font-size: 95%;
-}
 
 div.NavHead {
 	background-color: #ddd !important;
@@ -571,7 +557,14 @@ table {
 	background: #ccc !important;
 }
 
-.ambox {
+table.plainlinks {
+	border-color: 1px solid #ddd !important;
+	background-color: #eee !important;
+	padding: 5px;
+	font-size: 95%;
+}
+
+.ambox, table.plainlinks.tmbox.tmbox-notice, table.box-Uncategorized.plainlinks.ombox.ombox-style.ambox-uncategorized {
 	margin: 0 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
@@ -582,13 +575,19 @@ table.ambox + table.ambox {
 	margin-top: 5px !important;
 }
 
-
 th.mbox-text, td.mbox-text {
 	background-color: #eee !important;
 }
 
 .ambox td.mbox-imageright {
 	background: #eee !important;
+}
+
+.mbox-image {
+	border-color: none;
+	padding: 2px 0 2px 0.9em;
+	text-align: center;
+	background-color: #eee !important;
 }
 
 table >  tbody > tr:nth-child(odd) {
