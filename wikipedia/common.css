@@ -570,6 +570,10 @@ table {
 	background-color: #eee !important;
 }
 
+.biota th[colspan="2"] {
+	background: #ccc !important;
+}
+
 div.plainlist.plainlinks {
 	background-color: #eee !important;
 	border-color: solid 1px #ddd !important;
