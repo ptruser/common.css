@@ -564,12 +564,19 @@ table.plainlinks {
 	font-size: 95%;
 }
 
-
 table.toccolours.plainlinks > tbody > tr > * {
 	color: #000 !important;
 	border: 1px solid #eee !important;
 	background: #eee !important;
 	padding: 5px;
+}
+
+table.plainlinks.tmbox.tmbox-content.tmbox-controversial,
+table.plainlinks.tmbox.tmbox-content.tmbox-controversial-issues {
+	margin: 0 10%;
+	border-color: 1px solid #ddd !important;
+	border-left: 10px solid #ff9700 !important;
+	background-color: #eee !important;
 }
 
 table.plainlinks.ombox.ombox-speedy,
