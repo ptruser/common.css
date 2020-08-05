@@ -540,7 +540,7 @@ a.new:visited {
 .toc,
 .mw-warning,
 .toccolours {
-	border-color: 1px solid #ddd;
+	border: 1px solid #ddd;
 	background-color: #eee;
 	padding: 5px;
 	font-size: 95%
