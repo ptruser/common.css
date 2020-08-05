@@ -564,7 +564,27 @@ table.plainlinks {
 	font-size: 95%;
 }
 
-.ambox, table.plainlinks.tmbox.tmbox-notice, table.box-Uncategorized.plainlinks.ombox.ombox-style.ambox-uncategorized {
+table.plainlinks.ombox.ombox-speedy,
+table.plainlinks.ombox.ombox-style {
+	margin: 0 10%;
+	border-color: 1px solid #ddd !important;
+	border-left: 10px solid #ffd700 !important;
+	background-color: #eee !important;
+}
+
+table.ambox-delete,
+table.plainlinks.cmbox.cmbox-delete,
+table.plainlinks.imbox.imbox-delete,
+table.plainlinks.ombox.ombox-delete {
+	margin: 0 10%;
+	border-color: 1px solid #ddd !important;
+	border-left: 10px solid #cc0000 !important;
+	background-color: #eee !important;
+}
+
+.ambox,
+table.plainlinks.tmbox.tmbox-notice,
+table.box-Uncategorized.plainlinks.ombox.ombox-style.ambox-uncategorized {
 	margin: 0 10%;
 	border-color: 1px solid #ddd !important;
 	border-left: 10px solid #0062cc !important;
