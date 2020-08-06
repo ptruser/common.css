@@ -1,0 +1,266 @@
+/* ==UserStyle==
+@name         common.css
+@version      1.0
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/khronos.user.css
+@license      GPL-2.0
+==/UserStyle== */
+
+@-moz-document regexp("^https?:\\/\\/www\\.khronos\\.org\\/(webgl|opengl)\\/wiki[\\s\\S]+") {
+
+	/* Full style support for opengl wiki and main page of webgl wiki */
+
+	.infobox {
+		border-spacing: 3px;
+		border-collapse: inherit;
+		background-color: #eee !important;
+		border-color: #ddd !important;
+		clear: right;
+		color: black !important;
+		float: right;
+		font-size: 88%;
+		line-height: 1.5em;
+		margin: 0.5em 0 0.5em 1em;
+		padding: 0.2em;
+	}
+
+	.infobox > * > tr > td,
+	.infobox > * > tr > th {
+		padding: 2px 5px;
+		border-bottom: 1px solid #000 !important;
+		border-top: 1px solid #eee !important;
+		border-left: 1px solid #eee !important;
+		border-right: 1px solid #eee !important;
+		background: #eee !important;
+	}
+
+	.infobox a,
+	.infobox > * > tr:last-child > th,
+	.infobox > * > tr:last-child > td {
+		border-color: #FFF;
+	}
+
+	div[style="display: block; border: 1px solid #354C5B; width: 95%; text-align: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"] {
+		background-color: #eee !important;
+		border-color: #ddd !important;  
+	}
+
+
+	.toc, .mw-warning, .toccolours {
+		border: 1px solid #ddd !important;
+		background-color: #eee !important;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		font-family: sans-serif;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA !important
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+
+	h1 {
+		padding-top: 0;
+		font-size: 16pt;
+		text-align: left;
+	}
+
+	h2[style="background: #BBD6E6; margin:0px; padding:0px; padding: 5px; border:none; border-bottom: 1px solid #354C5B;"] {
+		background-color: #ccc !important;
+	}
+
+	.mw-body h1,
+	.mw-body-content h1,
+	.mw-body-content h2 {
+		margin-bottom: 0.25em;
+		padding: 0;
+		font-family: sans-serif;
+		line-height: 1.3;
+	}
+
+	hr {
+		background-color: #000;
+	}
+
+	pre,
+	code,
+	.mw-code {
+		font-family: monospace;
+	}
+
+	code {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 1px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	pre,
+	.mw-code {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border-color:  #1e1e1e !important;
+		padding: 1em;
+		white-space: pre-wrap;
+		overflow-x: hidden;
+		word-wrap: break-word
+	}
+
+	pre > span {
+		background-color: #1e1e1e !important;
+		border: 1px solid #1e1e1e !important;
+		color: #68f !important;
+	}
+
+	pre > span > a {
+		color: #EA384D !important;
+		font-weight: bold;
+	}
+
+	.tpl-code {
+		font-family: "Consolas",monospace;
+		background-color: #eee;
+		border: 1px solid #ddd;
+	}
+
+	.tpl-enum {
+		font-family: "Consolas", monospace;
+		background-color: #eee;
+		color: crimson;
+	}
+
+	.side-list-contents {
+		border: 1px solid #ddd;
+		background-color: #eee;
+	}
+
+	.funcdef {
+		font-family: "Consolas",monospace;
+		background-color: #ddd;
+		border: 1px dashed #0062cc;
+	}
+
+	.metadata.plainlinks.stub {
+		border-color: #ddd !important;
+		border-left: 10px solid #0062cc !important;
+		background-color: #eee !important;
+	}
+
+	.metadata.plainlinks.stub[style="background: #FA8; border: 1px solid black;"] {
+		border-color: #ddd !important;
+		border-left: 10px solid #ff9700 !important;
+		background-color: #eee !important; 
+	}
+
+	.wikitable {
+		color: #000 !important;
+		margin: 1em 0;
+		border: 1px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse
+	}
+
+	.wikitable > tr > th,
+	.wikitable > tr > td,
+	.wikitable > * > tr > th,
+	.wikitable > * > tr > td {
+		border: 1px solid #ddd !important;
+		padding: 0.2em 0.4em
+	}
+
+	.wikitable > tr > th,
+	.wikitable > * > tr > th {
+		background: #ddd !important;
+		text-align: center
+	}
+
+	.wikitable > caption {
+		font-weight: bold
+	}
+
+
+	.wikitable > tbody > tr > th > span.tpl-enum {
+		background: transparent !important;
+		color: #000;
+	}
+
+	table > tbody > tr > th > span.tpl-enum {
+		background: transparent !important;
+		color: #000;
+	}
+
+	.funcdef > span.tpl-code {
+		background: #ddd !important;
+		color: #000;
+	}
+
+	.funcdef > span.tpl-code > a {
+		color: #EA384D !important;
+		font-weight: bold;
+	}
+
+	img.thumbborder {
+		border: 1px solid #ddd;
+	}
+
+
+	/* webgl wiki main page */
+
+	table > tbody > tr > td[style="padding: 5px; background: #CCFFE6;"] {
+		border-color: #ddd !important;
+		background-color: #eee !important;    
+	}
+
+	table > tbody > tr > td[style="padding: 5px; background: #CCFFE6;"] > h2[style="border: 1px solid black; padding: 5px; background: #66FFB5;"]{
+		border-color: #eee !important;
+		background-color: #eee !important;
+		border-bottom: 1px solid #000 !important;
+	}
+
+	table > tbody > tr > td[style="padding: 5px; background: #FFDAB3;"] {
+		border-color: #ddd !important;
+		background-color: #eee !important;
+	}
+
+	table > tbody > tr > td[style="padding: 5px; background: #FFDAB3;"] > h2[style="border: 1px solid black; padding: 5px; background: #FFB566;"]{
+		border-color: #eee !important;
+		background-color: #eee !important;
+		border-bottom: 1px solid #000 !important;
+	}
+
+}
