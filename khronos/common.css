@@ -203,7 +203,12 @@
 
 
 	.wikitable > tbody > tr > th > span.tpl-enum {
-		background: #ddd !important;
+		background: transparent !important;
+		color: #000;
+	}
+
+	table > tbody > tr > th > span.tpl-enum {
+		background: transparent !important;
 		color: #000;
 	}
 
