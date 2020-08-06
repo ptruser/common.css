@@ -217,6 +217,13 @@
 		font-weight: bold;
 	}
 
+	img.thumbborder {
+		border: 1px solid #ddd;
+	}
+
+
+	/* webgl wiki main page */
+
 	table > tbody > tr > td[style="padding: 5px; background: #CCFFE6;"] {
 		border-color: #ddd !important;
 		background-color: #eee !important;    
@@ -238,4 +245,5 @@
 		background-color: #eee !important;
 		border-bottom: 1px solid #000 !important;
 	}
+
 }
