@@ -1,7 +1,7 @@
+@-moz-document regexp("^https?:\\/\\/www\\.khronos\\.org\\/(webgl|opengl)\\/wiki[\\s\\S]+") {
 
+	/* Full style support for opengl wiki and main page of webgl wiki */
 
-/* Full style support for opengl wiki and main page of webgl wiki */
-@-moz-document domain("khronos.org") {
 	.infobox {
 		border-spacing: 3px;
 		border-collapse: inherit;
