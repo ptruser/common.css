@@ -52,6 +52,10 @@
 		color: red !important;
 	}
 
+	hr {
+		background-color: #000;
+	}
+
 	table,
 	ol,
 	dl,
@@ -162,6 +166,153 @@
 		border: 1px solid #ddd !important;
 		border-left: 10px solid #cc0000 !important;
 		background-color: #eee !important;
+	}
+
+}
+
+@-moz-document regexp("https://open.gl/(introduction|drawing|textures|transformations|depthstencils|framebuffers|geometry|feedback|privacypolicy)") {
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		font-family: sans-serif;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA !important
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	.disabled, .disabled a, a.disabled {
+		color: red !important;
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+	h2 {
+		padding: 5px;
+		border-bottom: 1px solid #000;
+	}
+
+	hr {
+		background-color: #000;
+	}
+
+	body {
+		color: #000;
+	}
+
+	article > p > code, a > code {
+		border: 1px solid #ddd;
+		background: #eee;
+		text-decoration: #eee !important; /* stupid fix */
+	}
+
+	article a {
+		color: black;
+		text-decoration: underline;
+		border-bottom: transparent;
+	}
+
+	article .important {
+		color: #000;
+		background: #ff3232;
+		border: 1px #ddd;
+	}
+
+	div#adbox-article > hr {
+		display: none;
+	}
+
+	blockquote {
+		padding-left: 10px;
+		margin-left: 0;
+		font-size: 11pt;
+		color: #666;
+		border-left: 4px solid #aaa !important;
+		background: #eee;
+		border: 1px solid #ddd;
+		overflow: auto;
+	}
+
+	blockquote[style="padding-bottom: 8px; font-size: 14px"] {
+		color: #000 !important;
+		background: #eee;
+		border-left: 1px solid #ddd !important;
+		border: 1px solid #ddd;  
+	}
+
+	nav blockquote {
+		background: #eee;
+		border-color: #ddd;
+	}
+
+	pre,
+	code {
+		font-family: monospace;
+	}
+
+	pre code,
+	code[class="cpp"] {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+		box-shadow: 0px 0px 0px black; /* stupid fix */
+	}
+
+	li > code {
+		background-color: #eee !important;
+		border: 1px solid #ddd !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	ul > li {
+		padding: 5px;
+	}
+
+	pre .number, pre .date {
+		color: #F953C6;
+	}
+
+	pre .keyword, pre .tag, pre .django .tag, pre .django .keyword, pre .css .class, pre .css .id, pre .lisp .title {
+		color: #68f;
+	}
+
+	pre .shebang, pre .diff .addition, pre .comment, pre .java .annotation, pre .template_comment, pre .pi, pre .doctype, span.preprocessor, pre .string {
+		color: #F09819;
+	}
+
+	/* TODO(1nfdev): add color for matrix in the transformations. */
+
+	pre .built_in {
+		color: #D6004B;
 	}
 
 }
