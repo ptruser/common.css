@@ -804,6 +804,11 @@ div.stuck > span {
 	background-color: #eee !important;
 }
 
+span.template-ping,
+span.template-ping > a {
+	color: #a900ff !important;
+}
+
 span.example {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #1cbb00;
