@@ -1,0 +1,144 @@
+@-moz-document url-prefix("http://docs.gl/") {
+.indexcommand {
+    background-color: #eee;
+    color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: blue !important;
+	font-family: sans-serif;
+}
+
+a:not([href]) {
+	cursor: pointer
+}
+
+a:visited {
+	color: #6D50FA !important
+}
+
+a:active {
+	color: #faa700 !important
+}
+
+a.new {
+	color: #d33 !important
+}
+
+a.new:visited {
+	color: #d33050 !important
+}
+
+.disabled, .disabled a, a.disabled {
+    color: red !important;
+}
+
+table,
+ol,
+dl,
+ul,
+h3,
+h4,
+h5,
+h6 {
+	font-family: sans-serif
+}
+
+h2 {
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+#command_title {
+    font-size: 35px;
+}
+
+.example .programlisting,
+div.funcsynopsis,
+table.funcprototype-table {
+	color: #ccc !important;
+	background-color: #1e1e1e !important;
+	border: 5px solid #1e1e1e !important;
+    border-radius: 2px;
+	padding: 1px 4px;
+}
+
+.codecomment > a,
+div.funcsynopsis > a,
+.example .programlisting > a,
+table.funcprototype-table > a {
+	text-decoration: underline;
+}
+
+.example .programlisting > span.constant {
+	color: crimson !important;
+	background-color: #1e1e1e !important;
+}
+
+b.fsfunc,
+strong.fsfunc,
+.codecomment > a,
+pre.programlisting > a {
+    color: #EA384D !important;
+    font-weight: bold;
+}
+
+.ckeyword,
+div.funcsynopsis > p,
+table.funcprototype-table > tbody > tr > td,
+div.funcsynopsis > table > tbody > tr > td {
+    color: #68f
+}
+
+.codestring {
+    color: #F09819;
+}
+
+var.pdparam {
+    color: #ccc;
+}
+
+pre,
+code {
+	font-family: monospace;
+}
+
+.function,
+code.constant,
+em.parameter > code,
+dl.variablelist > dt > span > em > code {
+	background-color: #eee !important;
+    border: 1px solid #ddd !important;
+    border-radius: 2px;
+	padding: 1px 4px;
+}
+
+.function {
+	color: #000 !important;
+    font-weight: bold;
+}
+
+code.constant {
+    color: crimson !important;
+}
+
+dl.variablelist > dt > span > em > code {
+	color: #000 !important;
+    font-weight: bold;
+}
+
+div.variablelist > dl > dd {
+    padding: 5px;
+}
+
+div.funcprototype-spacer {
+    display:none; /* @see http://docs.gl/gl2/glCompressedTexSubImage3D */
+}
+
+#Copyright {
+	border: 1px solid #ddd !important;
+	border-left: 10px solid #cc0000 !important;
+	background-color: #eee !important;
+}
+}
