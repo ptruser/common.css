@@ -746,7 +746,14 @@ div.boilerplate.discussion-archived {
 
 
 
+details {
+	background: #eee;
+	padding: 0.5rem;
+}
 
+details summary {
+	cursor: pointer;
+}
 
 
 
