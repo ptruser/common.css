@@ -6,8 +6,8 @@
 @author       1nfdev <2ds6y3t26@relay.firefox.com>
 @homepageURL  https://github.com/1nfdev/common.css
 @supportURL   https://github.com/1nfdev/common.css/issues
-@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/khronos.user.css
-@license      GPL-2.0
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/khronos/common.user.css
+@license      AGPL
 ==/UserStyle== */
 
 @-moz-document regexp("^https?:\\/\\/www\\.khronos\\.org\\/(webgl|opengl)\\/wiki[\\s\\S]+") {
