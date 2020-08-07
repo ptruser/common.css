@@ -28,8 +28,8 @@
 0. Install [Stylus](https://github.com/openstyles/stylus#releases) for your browser.
 1. Then go to a link:
 
-📦 [Install for docs.gl](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.<br>
-📦 [Install for khronos](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.
+	📦 [Install for docs.gl](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.<br>
+	📦 [Install for khronos](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.
 
 2. Click on an `Install style`.
 
