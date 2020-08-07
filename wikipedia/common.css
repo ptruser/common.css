@@ -416,11 +416,11 @@ td.unknown.table-unknown {
 
 
 table.fmbox-warning {
-	border: 1px solid red !important;
+	border: 1px solid #ff3232 !important;
 }
 
 table.ombox-content {
-	border: 1px solid red !important;
+	border: 1px solid #ff3232 !important;
 }
 
 
