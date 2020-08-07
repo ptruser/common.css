@@ -7,7 +7,7 @@
 [![Github all releases](https://img.shields.io/github/downloads/1nfdev/common.css/total.svg)](https://github.com/1nfdev/common.css/releases/)
 
 <p align="center">
-	<a href="###Any">Installation (any)</a> &middot; <a href="###Wikis-platforms">Installation (wikis)</a>
+	<a href="#any">Installation (any)</a> &middot; <a href="#wikis-platforms">Installation (wikis)</a>
 </p>
 
 # About
