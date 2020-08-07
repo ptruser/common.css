@@ -1,144 +1,167 @@
+/* ==UserStyle==
+@name         docs.gl-common.css
+@version      1.0
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/khronos.user.css
+@license      GPL-2.0
+==/UserStyle== */
+
 @-moz-document url-prefix("http://docs.gl/") {
-.indexcommand {
-    background-color: #eee;
-    color: #000;
-}
 
-a {
-	text-decoration: none;
-	color: blue !important;
-	font-family: sans-serif;
-}
+	/*
+		Almost complete support OpenGL documentation.
+		Remains to fix non-standard tables and all pages started from https://open.gl/introduction
+	*/
 
-a:not([href]) {
-	cursor: pointer
-}
+	.indexcommand {
+		background-color: #eee;
+		color: #000;
+	}
 
-a:visited {
-	color: #6D50FA !important
-}
+	a {
+		text-decoration: none;
+		color: blue !important;
+		font-family: sans-serif;
+	}
 
-a:active {
-	color: #faa700 !important
-}
+	a:not([href]) {
+		cursor: pointer
+	}
 
-a.new {
-	color: #d33 !important
-}
+	a:visited {
+		color: #6D50FA !important
+	}
 
-a.new:visited {
-	color: #d33050 !important
-}
+	a:active {
+		color: #faa700 !important
+	}
 
-.disabled, .disabled a, a.disabled {
-    color: red !important;
-}
+	a.new {
+		color: #d33 !important
+	}
 
-table,
-ol,
-dl,
-ul,
-h3,
-h4,
-h5,
-h6 {
-	font-family: sans-serif
-}
+	a.new:visited {
+		color: #d33050 !important
+	}
 
-h2 {
-    padding: 5px;
-    border-bottom: 1px solid #000;
-}
+	.disabled, .disabled a, a.disabled {
+		color: red !important;
+	}
 
-#command_title {
-    font-size: 35px;
-}
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
 
-.example .programlisting,
-div.funcsynopsis,
-table.funcprototype-table {
-	color: #ccc !important;
-	background-color: #1e1e1e !important;
-	border: 5px solid #1e1e1e !important;
-    border-radius: 2px;
-	padding: 1px 4px;
-}
+	h2 {
+		padding: 5px;
+		border-bottom: 1px solid #000;
+	}
 
-.codecomment > a,
-div.funcsynopsis > a,
-.example .programlisting > a,
-table.funcprototype-table > a {
-	text-decoration: underline;
-}
+	#command_title {
+		font-size: 35px;
+	}
 
-.example .programlisting > span.constant {
-	color: crimson !important;
-	background-color: #1e1e1e !important;
-}
+	.example .programlisting,
+	div.funcsynopsis,
+	table.funcprototype-table {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
 
-b.fsfunc,
-strong.fsfunc,
-.codecomment > a,
-pre.programlisting > a {
-    color: #EA384D !important;
-    font-weight: bold;
-}
+	.codecomment > a,
+	div.funcsynopsis > a,
+	.example .programlisting > a,
+	table.funcprototype-table > a {
+		text-decoration: underline;
+	}
 
-.ckeyword,
-div.funcsynopsis > p,
-table.funcprototype-table > tbody > tr > td,
-div.funcsynopsis > table > tbody > tr > td {
-    color: #68f
-}
+	.example .programlisting > span.constant {
+		color: crimson !important;
+		background-color: #1e1e1e !important;
+	}
 
-.codestring {
-    color: #F09819;
-}
+	b.fsfunc,
+	strong.fsfunc,
+	.codecomment > a,
+	pre.programlisting > a {
+		color: #EA384D !important;
+		font-weight: bold;
+	}
 
-var.pdparam {
-    color: #ccc;
-}
+	.ckeyword,
+	div.funcsynopsis > p,
+	table.funcprototype-table > tbody > tr > td,
+	div.funcsynopsis > table > tbody > tr > td {
+		color: #68f
+	}
 
-pre,
-code {
-	font-family: monospace;
-}
+	.codestring {
+		color: #F09819;
+	}
 
-.function,
-code.constant,
-em.parameter > code,
-dl.variablelist > dt > span > em > code {
-	background-color: #eee !important;
-    border: 1px solid #ddd !important;
-    border-radius: 2px;
-	padding: 1px 4px;
-}
+	var.pdparam {
+		color: #ccc;
+	}
 
-.function {
-	color: #000 !important;
-    font-weight: bold;
-}
+	pre,
+	code {
+		font-family: monospace;
+	}
 
-code.constant {
-    color: crimson !important;
-}
+	.function,
+	code.constant,
+	em.parameter > code,
+	dl.variablelist > dt > span > em > code {
+		background-color: #eee !important;
+		border: 1px solid #ddd !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
 
-dl.variablelist > dt > span > em > code {
-	color: #000 !important;
-    font-weight: bold;
-}
+	.function {
+		color: #000 !important;
+		font-weight: bold;
+	}
 
-div.variablelist > dl > dd {
-    padding: 5px;
-}
+	code.constant {
+		color: crimson !important;
+	}
 
-div.funcprototype-spacer {
-    display:none; /* @see http://docs.gl/gl2/glCompressedTexSubImage3D */
-}
+	dl.variablelist > dt > span > em > code {
+		color: #000 !important;
+		font-weight: bold;
+	}
 
-#Copyright {
-	border: 1px solid #ddd !important;
-	border-left: 10px solid #cc0000 !important;
-	background-color: #eee !important;
-}
+	div.variablelist > dl > dd {
+		padding: 5px;
+	}
+
+	div.funcprototype-spacer {
+		/*
+			@see http://docs.gl/gl2/glCompressedTexSubImage3D
+			@brief problem with code block
+		*/
+		display:none;
+	}
+
+	#Copyright {
+		border: 1px solid #ddd !important;
+		border-left: 10px solid #cc0000 !important;
+		background-color: #eee !important;
+	}
+
 }
