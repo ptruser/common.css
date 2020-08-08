@@ -263,4 +263,12 @@
 		background-color: #eee !important;
 	}
 
+	td.table-yes {
+		background: #00c800 !important;
+	}
+
+	td.table-no {
+		background: #ff3232 !important;
+	}
+
 }
