@@ -279,4 +279,8 @@
 		background: #ff3232 !important;
 	}
 
+	.t-dsc-member-div > div {
+		font-family: sans-serif !important;
+	}
+
 }
