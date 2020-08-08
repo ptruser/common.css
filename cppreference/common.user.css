@@ -240,7 +240,15 @@
 
 	/* c/c++ whitespaces */
 	.c.source-c .es1,
-	.c.source-c .es5 {
+	.c.source-c .es2,
+	.c.source-c .es3,
+	.c.source-c .es4,
+	.c.source-c .es5,
+	.cpp.source-cpp .es1,
+	.cpp.source-cpp .es2,
+	.cpp.source-cpp .es3,
+	.cpp.source-cpp .es4,
+	.cpp.source-cpp .es5 {
 		color: #F09819;
 		font-weight: bold;
 	}
