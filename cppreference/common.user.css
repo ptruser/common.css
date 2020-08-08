@@ -1,0 +1,266 @@
+/* ==UserStyle==
+@name         cppreference.com-common.css
+@version      1.0.0
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/cppreference/common.user.css
+@license      AGPL
+==/UserStyle== */
+
+@-moz-document domain("cppreference.com") {
+
+	/*
+		Currently, I consider theme very bad, but ready to use.
+	*/
+
+	a {
+		text-decoration: none;
+		color: blue;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	hr {
+		background-color: #fff;
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+	h1 {
+		padding-top: 0;
+		font-size: 16pt;
+		text-align: left;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: black;
+		border-bottom: 1px solid #000;
+	}
+
+	.t-dsc > td, .t-dsc-hitem > td {
+		border-top: 1px solid #000;
+	}
+
+	.wikitable {
+		color: #000 !important;
+		margin: 1em 0;
+		border: 1px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse
+	}
+
+	.wikitable > tr > th,
+	.wikitable > tr > td,
+	.wikitable > * > tr > th,
+	.wikitable > * > tr > td {
+		border: 1px solid #ddd !important;
+		padding: 0.2em 0.4em
+	}
+
+	.wikitable > tr > th,
+	.wikitable > * > tr > th {
+		background: #ddd !important;
+		text-align: center
+	}
+
+	.wikitable > caption {
+		font-weight: bold
+	}
+
+	table.floatright {
+		color: #000 !important;
+		margin: 1em 0;
+		border: 1px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse
+	}
+
+	table > tbody > tr > th {
+		color: #000 !important;
+	}
+
+	.t-mark, .t-mark-rev {
+		color: #00c800;
+	}
+
+	.coliru-btn {
+		background-image: none !important;
+		background-color: #0062cc !important;
+		color: #fff !important;
+		border: #001933 1px solid !important;
+	}
+
+	.t-c {
+		background-color: #eee !important;
+		border: 1px solid #ddd !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	.t-spar {
+		color: #888;
+		font-style: italic;
+	}
+
+	.t-rev-inl {
+		border: 1px solid #ddd;
+	}
+
+	.t-dsc-named-req-div > div {
+		font-family: monospace;
+	}
+
+	.t-mark-rev.t-mark-ts {
+		color: #ff9700;
+	}
+
+	pre,
+	code {
+		font-family: monospace;
+	}
+
+	pre {
+		color: #ccc !important;
+	}
+
+	.t-lc,
+	pre > a > span.kw118 {
+		color: #68f !important;
+		text-decoration: underline;
+	}
+
+	pre > a > span.kw794 {
+		color: #EA384D;
+	}
+
+	div.mw-geshi,
+	div.c.source-c > pre {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	/* c/c++ {} [] etc */
+	.c.source-c .br0,
+	.c.source-c .sy4,
+	/* c/c++ ; etc */
+	.cpp.source-cpp .br0,
+	.cpp.source-cpp .sy4 {
+		color: #ccc;
+	}
+
+	/* c/c++ ints?  */
+	.c.source-c .nu0,
+	.cpp.source-cpp .nu0 {
+		color: #F953C6;
+	}
+
+	/* c/c++ floats?  */
+	.c.source-c .nu16 {
+		color: #F953C6;
+	}
+
+	/* c/c++ x16?  */
+	.c.source-c .nu12 {
+		color: #F953C6;
+	}
+
+	/* c/c++ operators == = */
+	.c.source-c .sy1,
+	.cpp.source-cpp .sy1,
+	/* c/c++ operators ! (logic?) */
+	.c.source-c .sy3,
+	.cpp.source-cpp .sy3 {
+		color: #D6004B;
+	}
+
+	/* c/c++ operators +\*- etc (include pointes) */
+	.c.source-c .sy2,
+	.cpp.source-cpp .sy2 {
+		color: #D6004B;
+	}
+
+	/* c/c++ operators ?:  */
+	.c.source-c .sy4,
+	.cpp.source-cpp .sy4 {
+	   color: #D6004B; 
+	}
+
+	/* c/c++ keywords */
+	.c.source-c .kw1,
+	.cpp.source-cpp .kw1 {
+		color: #7F7F7F;
+	}
+
+	/* c/c++ types */
+	.c.source-c .kw4,
+	.cpp.source-cpp .kw4,
+	span.t-c > span.mw-geshi /* problem tag */ {
+		color: #68f;
+	}
+
+	/* c/c++ preprocessor */
+	.c.source-c .co2, .c.source-c .st0,
+	.cpp.source-cpp .co2, .cpp.source-cpp .st0 {
+		color: #F09819;
+	}
+
+	/* c/c++ whitespaces */
+	.c.source-c .es1,
+	.c.source-c .es5 {
+		color: #F09819;
+		font-weight: bold;
+	}
+
+	/* c comments */
+	.c.source-c .co1,
+	.cpp.source-cpp .co1 {
+		color: #F09819;
+	}
+
+	.mw-geshi a {
+		color: crimson;
+		text-decoration: underline;
+	}
+
+	table.ambox {
+		margin: 4px 10%;
+		border: 1px solid #ddd !important;
+		border-left: 10px solid #0062cc !important;
+		background-color: #eee !important;
+	}
+
+}
