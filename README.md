@@ -29,7 +29,10 @@
 1. Then go to a link:
 
 	📦 [Install for docs.gl](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.<br>
-	📦 [Install for khronos](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.
+	📦 [Install for khronos](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css). Supports automatic updates.<br>
+	📦 [Install for wiki.osdev.org](https://github.com/1nfdev/common.css/raw/master/wiki.osdev.org/common.user.css). Supports automatic updates.<br>
+	📦 [Install for godoc.org](https://github.com/1nfdev/common.css/raw/master/go/pkg.go.dev/common.user.css). Supports automatic updates.<br>
+	📦 [Install for pkg.go.dev](https://github.com/1nfdev/common.css/raw/master/go/pkg.go.dev/common.user.css). Supports automatic updates.
 
 2. Click on an `Install style`.
 
