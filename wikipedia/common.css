@@ -661,6 +661,10 @@ th.mbox-text, td.mbox-text {
 	background: #eee !important;
 }
 
+table.ambox-style {
+	border-left: 10px solid #f4c430 !important;
+}
+
 .mbox-image {
 	border-color: none;
 	padding: 2px 0 2px 0.9em;
