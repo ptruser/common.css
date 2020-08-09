@@ -1,0 +1,414 @@
+/* ==UserStyle==
+@name         wiki.osdev.org-common.css
+@version      1.0.0
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/wiki.osdev.org/common.user.css
+@license      AGPL
+==/UserStyle== */
+
+@-moz-document domain("osdev.org") {
+
+	/*
+		Currently, I consider theme very bad, but ready to use.
+		Incomplete style for programming languages, also style require refactoring.
+	*/
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		font-family: sans-serif;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA !important
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	hr {
+		background-color: #000;
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+	table {
+		color: #000 !important;
+		margin: 1em 0;
+		border: 1px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse
+	}
+
+	table > tr > th,
+	table > tr > td,
+	table > * > tr > th,
+	table > * > tr > td {
+		border: 1px solid #ddd !important;
+		padding: 0.2em 0.4em
+	}
+
+	table > tr > th,
+	table > * > tr > th {
+		background: #ddd !important;
+		text-align: center
+	}
+
+	table > caption {
+		font-weight: bold
+	}
+
+	h1,
+	h2 {
+		margin-bottom: 0.25em;
+		padding: 0;
+		font-family: sans-serif;
+		line-height: 1.3;
+		border-bottom: 1px solid #000;
+	}
+
+	pre,
+	code {
+		font-family: monospace;
+	}
+
+
+	pre {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 1px solid #1e1e1e !important;
+		padding: 1em;
+		white-space: pre-wrap;
+		overflow-x: hidden;
+		word-wrap: break-word;
+		font-size: small;
+	}
+
+	/* code block */
+	div.mw-geshi {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	div.thumbinner {
+		border: 1px solid #eee !important;
+		padding: 3px;
+		background-color: #eee !important;
+		font-size: 85%;
+		text-align: center;
+		overflow: hidden
+	}
+
+	html .thumbimage {
+		background-color: #fff !important;
+		border: 1px solid #ddd !important
+	}
+
+	.catlinks {
+		border: 1px solid #ddd !important;
+		background-color: #eee !important;
+		padding: 5px;
+		margin-top: 1em;
+		clear: both;
+	}
+
+	td[style="background: #ddffdd"] {
+		background: #00c800 !important;
+	}
+
+	td[style="background: #ffdddd"] {
+		background: #ff3232 !important;
+	}
+
+	/* have no idea what's this */
+	.asm.source-asm .st0 {
+		color: #ccc;
+	}
+
+	/* c/assembly keywords */
+	.asm.source-asm .kw1,
+	.c.source-c .kw1 {
+		color: #7F7F7F;
+		font-weight: bold;
+	}
+
+	/* assembly aling stack */
+	.asm.source-asm .kw4 {
+		color: #EA384D;
+		font-weight: bold;
+	}
+
+	/* assembly register */
+	.asm.source-asm .kw3 {
+		color: #FFE259;
+	}
+
+	/* assembly segments */
+	.asm.source-asm .kw5 {
+		color: #EA384D;
+		font-weight: bold;
+	}
+
+	/* c/assembly numbers */
+	.asm.source-asm .nu0,
+	.c.source-c .nu0,
+	/* c x16  numbers */
+	.c.source-c .nu12 {
+		color: #F953C6;
+	}
+
+	/* assembly : */
+	.asm.source-asm .sy0 {
+		color: #ccc;
+	}
+
+	/* assembly () */
+	.asm.source-asm .br0 {
+		color: #ccc;
+		font-weight: bold;
+	}
+
+	/* assembly comment */
+	.asm.source-asm .sy0,
+	/* c preprocessor */
+	.c.source-c .co2 {
+		color: #F09819;
+	}
+
+	/* c multiline comment */
+	.c.source-c .coMULTI,
+	.c.source-c .co1 {
+		color: #F09819;
+		font-style: italic;
+	}
+
+	/* c string */
+	.c.source-c .st0 {
+		color: #F09819;
+	}
+
+	/* c whitespaces */
+	.c.source-c .es1,
+	.c.source-c .es2,
+	.c.source-c .es3,
+	.c.source-c .es4,
+	.c.source-c .es5,
+	.cpp.source-cpp .es1,
+	.cpp.source-cpp .es2,
+	.cpp.source-cpp .es3,
+	.cpp.source-cpp .es4,
+	.cpp.source-cpp .es5 {
+		color: #F09819;
+		font-weight: bold;
+	}
+
+	/* c operators */
+	.c.source-c .sy0 {
+		color: #D6004B;
+	}
+
+	/*c types (include storage types) */
+	.c.source-c .kw4 {
+		color: #68f;
+	}
+
+	/* c func specifier and struct, enum types */
+	.c.source-c .kw2 {
+		color: #4EC8AF;
+		font-weight: bold;
+	}
+
+	/* c std lib func??? */
+	.c.source-c .kw3 {
+		color: #EA384D;
+	}
+
+	.c.source-c .br0 {
+		color: #ccc;
+	}
+
+	/* bash */
+
+	/* bash flags */
+	.bash.source-bash .re5 {
+		color: #10c1ea !important;
+	}
+
+	.bash.source-bash .sy0 {
+		color: #D6004B;
+		font-weight: bold;
+	}
+
+	.bash.source-bash .kw1,
+	.bash.source-bash .re2 {
+		color: #7F7F7F;
+		font-weight: bold;
+	}
+
+	.bash.source-bash .kw2,
+	.bash.source-bash .kw3 {
+		color: #EA384D;
+	}
+
+	/* bash vars */
+	.bash.source-bash .co1,
+	.bash.source-bash .re1,
+	.bash.source-bash .es2,
+	.bash.source-bash .es3,
+	.bash.source-bash .es4 {
+		color: #2cff00;
+	}
+
+	/* bash string */
+	.bash.source-bash .st0 {
+		color: #F09819;
+	}
+
+	.bash.source-bash .br0 {
+		color: #ccc;
+		font-weight: bold;
+	}
+
+	.bash.source-bash .co2 {
+		color: #F09819;
+		font-style: italic;
+	}
+
+	/* ada */
+
+	.ada.source-ada .br0 {
+		color: #ccc;
+	}
+
+	.ada.source-ada .st0 {
+		color: #F09819;
+	}
+
+	.ada.source-ada .kw1,
+	.ada.source-ada .kw2 {
+		color: #7F7F7F;
+	}
+
+	.ada.source-ada .nu0 {
+		color: #F953C6;
+	}
+
+	.ada.source-ada .kw3 {
+		color: #EA384D;
+		font-weight: bold;
+	}
+
+	.ada.source-ada .co1 {
+		color: #F09819;
+		font-style: italic;
+	}
+
+	/* makefile */
+
+	.make.source-make .st0 {
+		color: #F09819;
+	}
+
+	.make.source-make .re2 {
+		color: #2cff00;
+	}
+
+	.make.source-make .re0 {
+		color: #0ff;
+		font-weight: bold;
+	}
+
+	.make.source-make .sy0 {
+		color: #D6004B;
+	}
+
+	.make.source-make .br0 {
+		color: #ccc;
+	}
+
+	.make.source-make .kw1 {
+		color: #7F7F7F;
+		font-weight: bold;
+	}
+
+	.make.source-make .kw2 {
+		color: #7F7F7F;
+	}
+
+	.make.source-make .co1 {
+		color: #F09819;
+		font-style: italic;
+	}
+
+	/* d */
+
+	.d.source-d .br0 {
+		color: #ccc;
+	}
+
+	.d.source-d .st0 {
+		color: #F09819;
+	}
+
+	.d.source-d .me1 {
+		color: #F09819;
+	}
+
+	.d.source-d .kw1 {
+		color: #7F7F7F;
+		font-weight: bold;
+	}
+
+	.d.source-d .sy0 {
+		color: #D6004B;
+	}
+
+	.d.source-d .nu0,
+	.d.source-d .nu12 {
+		color: #F953C6;
+	}
+
+	.d.source-d .co1 {
+		color: #F09819;
+		font-style: italic;
+	}
+
+	.d.source-d .kw2 {
+		color: #EA384D;
+		font-weight: bold;
+	}
+
+	.d.source-d .kw4 {
+		color: #68f;
+	}
+
+}
