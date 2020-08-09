@@ -9,3 +9,168 @@
 @updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/godoc.org/common.user.css
 @license      AGPL
 ==/UserStyle== */
+
+@-moz-document domain("godoc.org") {
+
+	a {
+		text-decoration: none;
+		color: blue;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+	hr {
+		background-color: #fff;
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+	h1 {
+		padding-top: 0;
+		font-size: 16pt;
+		text-align: left;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: black;
+		border-bottom: 1px solid #000;
+		padding: 3px;
+	}
+
+	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+		border-top: 1px solid #000;
+	}
+
+	.table > thead > tr > th {
+		border-bottom: 2px solid #000;
+	}
+
+	.navbar-default, #x-footer {
+		background-color: #ddd;
+		border: none;
+	}
+
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+	}
+
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		background-color: #ccc;
+	}
+
+	.container .jumbotron, .container-fluid .jumbotron {
+		border-radius: 3px;
+	}
+
+	.banner {
+		background-color: #FFE680;
+	}
+
+	.navbar-blm {
+		display: none;
+	}
+
+	.form-control {
+		-webkit-appearance: none;
+		border-width: 1px 0 1px 1px;
+		border-radius: 2px 0 0 2px;
+		padding: 8px 96px 8px 12px;
+		padding: .8rem 9.6rem .8rem 1.2rem;
+		font-size: 16px;
+		font-size: 1.6rem;
+		line-height: 1.6;
+		transition: background .1s ease,border-color .1s ease,box-shadow .1s ease;
+	}
+
+	.form-control:focus {
+		border-color: #36c;
+		box-shadow: inset 0 0 0 1px #36c;
+		outline: 0;
+	}
+
+	.input-group-btn > .btn {
+		margin: 0;
+		 border-radius: 0 2px 2px 0;
+		z-index: 2;
+	}
+
+	.btn-default {
+		background-color: #36c;
+		border-color: #36c;
+		color: #fff;
+		font-weight: bold;
+	}
+
+	.btn-default:hover {
+		background-color: #00a000;
+		border-color: #00a000;
+		color: #fff;
+		font-weight: bold;
+	}
+
+	.navbar-nav > li > a:hover {
+		background-color: #00a000 !important;
+		color: #fff !important;
+	}
+
+	.highlighted {
+		background-color: #ffd700;
+	}
+
+	pre,
+	code {
+		font-family: monospace;
+	}
+
+	pre {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	pre a {
+		color: #68f
+	}
+
+	pre .com {
+		color: #ff9700;
+		font-style: italic;
+	}
+
+}
