@@ -1,8 +1,8 @@
-# [Browser-name](https://example.com/link-to-browser-site)
+# Preview
 
-<p align="center">  
+<p align="center">
 	<img
-	src="./www/preview.png"
+	src="./www/screenshot.png"
 	alt="Image won't load :-(">
 	<a href="https://example.com/link-to-INSTALL.md">INSTALL</a>
 </p>
