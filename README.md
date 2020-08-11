@@ -33,6 +33,7 @@
 	📦 [Install for docs.gl](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css).<br>
 	📦 [Install for khronos](https://github.com/1nfdev/common.css/raw/master/docs.gl/common.user.css).<br>
 	📦 [Install for wiki.osdev.org](https://github.com/1nfdev/common.css/raw/master/wiki.osdev.org/common.user.css).<br>
+	📦 [Install for kernel.org](https://github.com/1nfdev/common.css/raw/master/kernel.org/common.user.css).<br>
 	📦 [Install for godoc.org](https://github.com/1nfdev/common.css/raw/master/go/pkg.go.dev/common.user.css).<br>
 	📦 [Install for pkg.go.dev](https://github.com/1nfdev/common.css/raw/master/go/pkg.go.dev/common.user.css).
 
