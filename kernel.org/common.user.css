@@ -1,0 +1,508 @@
+/* ==UserStyle==
+@name         kernel.org-common.css
+@version      1.0.0
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/kernel.org/common.user.css
+@license      AGPL
+==/UserStyle== */
+
+@-moz-document url-prefix("https://erol.kernel.org/") {
+
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		background-color: #fff;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+	hr {
+		border: 1px solid #000;
+	}
+
+	tr.nohover {
+		background: #ccc !important;
+	}
+
+	tr.nohover > td[colspan="3"] {
+		background: #fff;
+	}
+
+	div#cgit table.list tr:nth-child(2n) {
+		color: #000;
+		background: #ddd;
+	}
+
+	div#cgit table.list tr:nth-child(2n+1) {
+		color: #000;
+		background: #eee;
+	}
+
+	div#cgit table#header td.sub {
+		color: #000;
+		border-top: solid 1px #000;
+		padding-left: 10px;
+	}
+
+	input[name="q"] {
+		border: 1px solid #ddd;
+		background: #fff;
+		outline: 0;
+	}
+
+	input[name="q"]:focus {
+		border-color: #36c;
+		box-shadow: inset 0 0 0 0.5px #36c;
+		outline: 0;
+	}
+
+	input[type="submit"]{
+		margin: 5px;
+		background: #36c;
+		border: 1px solid #36c;
+		color: #fff;
+	}
+
+	input[type="submit"]:hover {
+		background: #00a000;
+		border: 1px solid #00a000;
+		color: #fff;
+	}
+
+	div#cgit table.diffstat {
+		border-collapse: collapse;
+		border: solid 1px #ddd;
+		background-color: #eee;
+	}
+
+	/*#c00*/
+	div#cgit a.deco {
+		color: #000;
+		background-color: #c55;
+		border: solid 1px #c55;
+	}
+
+	div#cgit a.branch-deco {
+		color: #000;
+		background-color: #00c800;
+		border: solid 1px #00c800;
+	}
+
+	div#cgit table.diff td div.add {
+		color:#00c800 !important;
+		background-color: rgba(0,64,0,.5);
+	}
+
+	div#cgit table.diff td div.del {
+		color:#c55 !important;
+		background-color: rgba(64, 4, 0, .5);
+	}
+
+	div#cgit table.diff td div.head {
+		font-weight: bold;
+		color: #005cc5 !important
+	}
+
+	div#cgit table.diff td div.hunk {
+		font-weight: 700;
+		color:#6f42c1 !important
+	}
+
+	div#cgit div.cgit-panel table {
+		border-collapse: collapse;
+		border: solid 1px #ddd;
+		background-color: #eee;
+	}
+
+	select {
+		border: solid 1px #ddd;
+		background-color: #eee;
+	}
+
+	div#cgit div.content {
+		margin: 0px;
+		padding: 2em;
+		border-bottom: solid 1px #000;
+	}
+
+	div#cgit table.stats th {
+		text-align: left;
+		padding: 1px 0.5em;
+		background-color: #eee;
+		border: 1px solid #000;
+		color: #000;
+	}
+
+	table.diff {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 1px solid #1e1e1e !important;
+		padding: 1em;
+		white-space: pre-wrap;
+		overflow-x: hidden;
+		word-wrap: break-word;
+		font-size: small;
+	}
+
+	table.commit-info {
+		color: #000 !important;
+		margin: 1em 0;
+		border: 2px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse;
+	}
+
+	table.commit-info > tr > th,
+	table.commit-info > tr > td,
+	table.commit-info > * > tr > th,
+	table.commit-info > * > tr > td {
+		border: 1px solid #ddd !important;
+		padding: 0.2em 0.4em
+	}
+
+	table.commit-info > tr > th,
+	table.commit-info > * > tr > th {
+		background: #ddd !important;
+		text-align: center
+	}
+
+	tabl.commit-infoe > caption {
+		font-weight: bold
+	}
+
+	table.stats {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 1px solid #1e1e1e !important;
+		padding: 1em;
+		white-space: pre-wrap;
+		overflow-x: hidden;
+		word-wrap: break-word;
+		font-size: small;
+	}
+
+	table.stats {
+		color: #000 !important;
+		margin: 1em 0;
+		border: 2px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse;
+	}
+
+	table.stats > tr > th,
+	table.stats > tr > td,
+	table.stats > * > tr > th,
+	table.stats > * > tr > td {
+		border: 1px solid #ddd !important;
+		padding: 0.2em 0.4em
+	}
+
+	table.stats > tr > th,
+	table.stats > * > tr > th {
+		background: #ddd !important;
+		text-align: center
+	}
+
+	tabl.stats > caption {
+		font-weight: bold
+	}
+
+	div#cgit img {
+		border: none;
+	}
+
+}
+
+@-moz-document url-prefix("https://lore.kernel.org/") {
+
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		background-color: #fff;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+	hr {
+		border: 1px solid #000;
+	}
+
+	input[name="q"] {
+		border: 1px solid #ddd;
+		background: #fff;
+		outline: 0;
+	}
+
+	input[name="q"]:focus {
+		border-color: #36c;
+		box-shadow: inset 0 0 0 0.5px #36c;
+		outline: 0;
+	}
+
+	input[type="submit"]{
+		margin: 5px;
+		background: #36c;
+		border: 1px solid #36c;
+		color: #fff;
+	}
+
+	input[type="submit"]:hover {
+		background: #00a000;
+		border: 1px solid #00a000;
+		color: #fff;
+	}
+
+	/* quoted text in emails gets a different color */
+	*.q { color: #09f  !important }
+
+	/*
+	 * these may be used with cgit <https://git.zx2c4.com/cgit/>, too.
+	 * (cgit uses <div>, public-inbox uses <span>)
+	 */
+	*.add { color:#00c800 !important; background-color: #f0fff4; } /* diff post-image lines */
+	*.del { color:#ff3232 !important; background-color: #ffeef0; } /* diff pre-image lines */
+	*.head { color: #005cc5 !important } /* diff header (metainformation) */
+	*.hunk { font-weight: 700; color:#6f42c1 !important } /* diff hunk-header */
+
+	/*
+	 * highlight 3.x colors (tested 3.18) for displaying blobs.
+	 * This doesn't use most of the colors available, as I find too
+	 * many colors overwhelming, so the default is commented out.
+	 */
+	.hl.num { color:#f30 !important } /* number */
+	.hl.esc { color:#f0f !important } /* escape character */
+	.hl.str { color:#f30 !important } /* string */
+	.hl.ppc { color:#f0f !important } /* preprocessor */
+	.hl.pps { color:#f30 !important } /* preprocessor string */
+	.hl.slc { color:#09f !important } /* single-line comment */
+	.hl.com { color:#09f !important } /* multi-line comment */
+	/* .hl.opt { color:#ccc !important } */ /* operator */
+	/* .hl.ipl { color:#ccc !important } */ /* interpolation */
+
+	/* keyword groups kw[a-z] */
+	.hl.kwa { color:#ff0 !important }
+	.hl.kwb { color:#0f0 !important }
+	.hl.kwc { color:#ff0 !important }
+	/* .hl.kwd { color:#ccc !important } */
+
+	/* line-number (unused by public-inbox) */
+	/* .hl.lin { color:#ccc !important } */
+
+}
+
+@-moz-document url-prefix("https://www.kernel.org/") {
+
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		background-color: #fff;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+	table,
+	ol,
+	dl,
+	ul,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: sans-serif
+	}
+
+	article h1 {
+		color: #000;
+		font-family: sans-serif
+	}
+
+	hr {
+		border: 1px solid #000;
+	}
+
+	#banner,
+	#featured,
+	#content {
+		text-align: center;
+	}
+
+	#banner,
+	#featured,
+	#content,
+	#extras > div {
+		border: 1px solid;
+		background: #eee;
+		border-color: #ddd;
+		box-shadow: 0 0 0 #000;
+	}
+
+	table.docutils > caption {
+		text-align: center;
+	}
+
+	table#releases {
+		margin: 1em 0;
+	}
+
+	table#releases, table.docutils {
+		color: #000 !important;
+		border: 2px solid #ddd !important;
+		background: #eee !important;
+		border-collapse: collapse;
+	}
+
+	table#releases, table.docutils > tr > th,
+	table#releases, table.docutils > tr > td,
+	table#releases, table.docutils > * > tr > th,
+	table#releases, table.docutils > * > tr > td {
+		border: 1px solid #ddd !important;
+		padding: 0.2em 0.4em
+	}
+
+	table#releases, table.docutils > tr > th,
+	table#releases, table.docutils > * > tr > th {
+		background: #ddd !important;
+		text-align: center
+	}
+
+	table#releases, table.docutils > caption {
+		font-weight: bold
+	}
+
+	#releases tr:nth-child(2n+1) {
+		background-color: #ddd;
+	}
+
+	#latest {
+		float: right;
+		background: #ffd700;
+		box-shadow: 0 0 0 #000;
+		color: #000;
+	}
+
+	.paginator {
+		color: #000;
+	}
+
+	.literal-block {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	.post-info {
+		background: #ddd;
+		color: #000;
+		border: thin solid #ccc;
+		box-shadow: 0 0 0 #000;
+	}
+
+	#tux-gear {
+		filter: invert(0%) sepia(93%) saturate(0%) hue-rotate(235deg) brightness(107%) contrast(107%);
+	}
+
+}
