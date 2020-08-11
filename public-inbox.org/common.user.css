@@ -1,0 +1,56 @@
+/* ==UserStyle==
+@name         public-inbox.org-common.css
+@version      1.0.1
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/public-inbox.org/common.user.css
+@license      AGPL
+==/UserStyle== */
+
+@-moz-document domain("public-inbox.org") {
+
+	* {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		background-color: #ccc !important;
+	}
+
+	hr {
+		border: 1px solid #000;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA !important
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+}
