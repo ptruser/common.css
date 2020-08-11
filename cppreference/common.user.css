@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         cppreference.com-common.css
-@version      1.0.2
+@version      1.0.3
 @description  ❤️ Minimal aestheic with highly refined color palettes
 @namespace    1nfdev
 @author       1nfdev <2ds6y3t26@relay.firefox.com>
@@ -40,6 +40,11 @@
 
 	a.new:visited {
 		color: #d33050 !important
+	}
+
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
 	}
 
 	hr {
@@ -225,6 +230,12 @@
 		color: #7F7F7F;
 	}
 
+	.c.source-c .kw2,
+	.cpp.source-cpp .kw2 {
+		color: #4EC8AF;
+		font-weight: bold;
+	}
+
 	/* c/c++ types */
 	.c.source-c .kw4,
 	.cpp.source-cpp .kw4,
@@ -259,9 +270,15 @@
 		color: #F09819;
 	}
 
+	/* c/c++ multiline comment */
+	.c.source-c .coMULTI,
+	.cpp.source-cpp .coMULTI {
+		color: #F09819;
+		font-style: italic;
+	}
+
 	.mw-geshi a {
 		color: crimson;
-		text-decoration: underline;
 	}
 
 	table.ambox {

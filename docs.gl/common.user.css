@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         docs.gl-common.css
-@version      1.1.0
+@version      1.1.1
 @description  ❤️ Minimal aestheic with highly refined color palettes
 @namespace    1nfdev
 @author       1nfdev <2ds6y3t26@relay.firefox.com>
@@ -48,6 +48,18 @@
 		color: #d33050 !important
 	}
 
+	a:hover {
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+	.codecomment > a:hover,
+	pre.programlisting > a:hover {
+		font-weight: bold;
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
 	.disabled, .disabled a, a.disabled {
 		color: red !important;
 	}
@@ -90,7 +102,7 @@
 	div.funcsynopsis > a,
 	.example .programlisting > a,
 	table.funcprototype-table > a {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	.example .programlisting > span.constant {
