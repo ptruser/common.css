@@ -1,0 +1,254 @@
+/* ==UserStyle==
+@name         lwn.net-common.css
+@version      1.0.0
+@description  ❤️ Minimal aestheic with highly refined color palettes
+@namespace    1nfdev
+@author       1nfdev <2ds6y3t26@relay.firefox.com>
+@homepageURL  https://github.com/1nfdev/common.css
+@supportURL   https://github.com/1nfdev/common.css/issues
+@updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/common/linux/lwn.net/common.user.css
+@license      AGPL
+==/UserStyle== */
+
+@-moz-document url-prefix("https://lwn.net/") {
+
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		background-color: #fff;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue !important;
+		background: none;
+	}
+
+	a:not([href]) {
+		cursor: pointer
+	}
+
+	a:visited {
+		color: #6D50FA
+	}
+
+	a:active {
+		color: #faa700 !important
+	}
+
+	a.new {
+		color: #d33 !important
+	}
+
+	a.new:visited {
+		color: #d33050 !important
+	}
+
+	a:hover {
+		background-color: transparent;
+		color: #00a000 !important;
+		text-decoration: underline;
+	}
+
+	a:visited:hover {
+		color: #00a000;
+	}
+
+	a.name {
+		color: black 
+	}
+
+	a.name:link {
+		color: black 
+	}
+
+	a.name:hover {
+		color: black 
+	}
+
+	span {
+		color: #b00;
+	}
+
+	font.Subscription {
+		color: #6f42c1;
+	}
+
+	div.Headline {
+		border-radius: 0em;
+		background-color: #ccc;
+		text-transform: uppercase;
+		padding: 0px 0px 3px 3px;
+	}
+
+	div.topnav-container {
+		background: #ccc;
+		border-radius: 0px;
+	}
+
+	input {
+		padding:.1rem .75rem;
+		border-radius: 0px;
+	}
+
+	input[type=text],
+	input[type=password] {
+		border:1px solid #888;
+		background-color:#fff;
+		background-clip:padding-box;
+		transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+		border-radius:0
+	}
+
+	input[type=text]:focus,
+	input[type=password]:focus {
+		outline:0;
+		border-color:#80bdff;
+		box-shadow:0 0 0 .2rem rgba(0,123,255,.25)
+	}
+
+	.Form > tbody > tr > td > input[type="text"],
+	.Form > tbody > tr > td > input[type="password"] {
+		width: 2in;
+	}
+
+	.ArticleText > p > font[color="red"] {
+		color: #dc3545
+	}
+
+	.Form {
+		background-color: #fff;
+		padding: 0px;
+		border-style: none;
+	}
+
+	.Form > tbody > tr > td > input[type="submit"] {
+		margin-top: 1rem;
+	}
+
+	input[type="submit"] {
+		color:#fff;
+		border:#001933 1px solid;
+		background:#0069d9;
+	}
+
+	input[type="submit"]:hover {
+		background:#007bff;
+	}
+
+	div.FeatureByline,
+	div.GAByline {
+		
+		background: #f8f9fa;
+		border: 1px solid rgba(0,0,0,.2);
+		border-style: none;
+	}
+
+	pre,
+	code {
+		font-family: monospace;
+	}
+
+	tt {
+		font-family:monospace,monospace;
+		font-size:1em;
+		color: crimson;
+	}
+
+	pre {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 5px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	pre > a {
+		color: #68f !important
+	}
+
+	code {
+		color: #ccc !important;
+		background-color: #1e1e1e !important;
+		border: 1px solid #1e1e1e !important;
+		border-radius: 2px;
+		padding: 1px 4px;
+	}
+
+	td.CalMArrow,
+	td.CalMName {
+		border-style: solid;
+		border: 1px solid #eee;
+	}
+
+	tr.CalM {
+		border-left-style: solid;
+	}
+
+	td.CalMDate {
+		border: 1px solid #eee;
+		background-color:  #eee;
+		border-left-style: solid;
+		border-top-style: solid;
+	}
+
+	td.CalMEvent {
+		border-left-style: solid;
+		border-left: 1px solid #eee;
+	}
+
+	td.CalMContinue {
+		border-left-style: solid;
+		border-left: 1px solid #eee;
+	}
+
+	td.CalMCorner {
+		border-left-style: solid;
+		border-top-style: solid;
+		border-left: 1px solid #eee;
+		border-top: 1px solid #eee;
+	}
+
+	td.CalMTop {
+		border-left-style: solid;
+		border-top-style: solid;
+		border-left: 1px solid #fff;
+		border-top: 1px solid #eee;
+	}
+
+	td.CalMBottom {
+		border-left-style: solid;
+		border-bottom-style: solid;
+		border-left: 1px solid #fff;
+		border-bottom: 1px solid #eee;
+	}
+
+	td[bgcolor="#ffcc99"] {
+		background: #ddd;
+	}
+
+	div.ArticleText IMG {
+		display: block;
+		max-width: 100%;
+		box-shadow: 1px 1px 5px 0 rgba(0,0,0,.4);
+		margin: 0 auto;
+	}
+
+	div.CommentBox p.CommentTitle {
+		background-color: #ddd;
+		border-radius: 0;
+	}
+
+	div.CommentBox {
+		border-left: 3px solid #ddd;
+	}
+
+	p.CommentPoster {
+		margin-top: 4px;
+	}
+
+	font.QuotedText {
+		color: #6c757d !important;
+	}
+
+}
