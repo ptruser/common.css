@@ -9,3 +9,8 @@
 @updateURL    https://raw.githubusercontent.com/1nfdev/common.css/master/duckduckgo/common.user.css
 @license      AGPL
 ==/UserStyle== */
+
+duck.com
+https://duckduckgo.com/html*
+https://duckduckgo.com/lite/*
+/https?:\/\/(.*duckduckgo.com|3g2upl4pq6kufc4m.onion).*/
