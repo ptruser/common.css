@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         kernel.org-common.css
-@version      1.0.0
+@version      1.0.1
 @description  ❤️ Minimal aestheic with highly refined color palettes
 @namespace    1nfdev
 @author       1nfdev <2ds6y3t26@relay.firefox.com>
@@ -13,7 +13,7 @@
 @-moz-document url-prefix("https://erol.kernel.org/") {
 
 	body {
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 		color: #000;
 		background-color: #fff;
 	}
@@ -366,7 +366,7 @@
 @-moz-document url-prefix("https://www.kernel.org/") {
 
 	body {
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 		color: #000;
 		background-color: #fff;
 	}

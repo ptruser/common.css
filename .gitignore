@@ -150,3 +150,5 @@ flycheck_*.el
 
 *.log
 *.tgz
+
+@dev/*
